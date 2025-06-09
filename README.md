@@ -19,10 +19,10 @@ The raw data used for the data analysis. Only the data from 20250601 is here due
 The reduced data files. Only the data from 20250601 is here due to memory limitations.
 
 ### `visualisation.ipynb`
-Running the `total_flux()` function on the data.
+Running the `run_reduction()` function on the data.
 
 ### `lightcurve.ipynb`
-Plotting the light curve for the data.
+Running the `total_flux()` function on the data, and plotting the light curve.
 
 ### `... .png`
 Saved images of light curves for the paper.
