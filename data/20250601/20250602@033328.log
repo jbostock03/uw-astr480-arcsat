@@ -1,0 +1,258 @@
+ACP console log opened 02-Jun-2025 03:33:28 UTC
+This is ACP version 8.2 (build 10, V8.2.2 Maint Rel)
+Licensed to William Ketzeback
+03:33:28 Logging to C:\Users\Public\Documents\ACP Web Data\Doc Root\logs\AS06\20250601\20250602@033328.log
+03:33:29 Initializing AcquireSupport V8.1.1
+03:33:29 Telescope is ACP->MaxPoint-ASCOM Remote Client 1 REMOTE DRIVER: TCS772.DFM.ASCOM.Telescope, driver V3
+03:33:29 Dome is MaxDome
+03:33:29 *1* Telescope and Dome connected OK. Can Telescope can upark?
+03:33:29 *2* Yes. Can connect to MaxIm Camera?
+03:33:30 *3* Yes. Can abort any active exposures? 
+03:33:30 *4* Yes. Setup camera download preferences
+03:33:30 *5* Successful. Can turn off camera subframes?
+03:33:30 *6* Can read MaxIm version and Imager name?
+03:33:30 MaxIm DL is version 6.50
+03:33:30 Imager is Apogee USB/Net
+03:33:30 *7* Can discover and setup filterwheel?
+03:33:30 Using focus offsets and star mags from FilterInfo.txt
+03:33:30 Selecting filter z from previous ACP run at 20250601@113315 UTC
+03:33:30 *8* Yes filterwheel discovered and configured
+03:33:30 Imager readout modes:
+03:33:30   0 is Monochrome
+03:33:30   1 is Monochrome (Preflash)
+03:33:30 Autoguiding is disabled
+03:33:30 (assuring that FocusMax is running now...)
+03:33:35 Calculated unbinned plate scales (arcsec/pix): H = 0.67 V = 0.67
+03:33:35 Calculated field of view (arcmin): H = 11.5 V = 11.5
+03:33:35 Plate solving With A2.0 (best for pointing)
+03:33:35 Mount supports tracking rate offsets
+03:33:36 This is AcquireImages V8.1.0
+03:33:36 Compiling plan...
+03:33:36 (using ACP Plan Compiler V8.1.0)
+03:33:36 ...plan OK!
+03:33:36 This plan has 1 live target(s), 1 images
+03:33:36 There are 0.5 min. of actual imaging time
+03:33:36 Image file set-numbers start with 1
+03:33:36 Starting run for plan last-plan-from-web.txt...
+03:33:38 ==== Starting target 43Bet Com ====
+03:33:38 ;
+03:33:38 ; Single target color series plan by AS06, created Mon, 2 Jun 2025 03:33:28 UTC
+03:33:38 ;
+03:33:38   (turning tracking on for live image(s))
+03:33:40   Start slew to 43Bet Com...
+03:33:48   (wait for slew to complete)
+03:34:25   (slew complete)
+03:34:25   (request plan-start pointing update)
+03:34:25   Ready for 43Bet Com (# 1 of 1 in set 1)
+03:34:28   Selecting z filter (3) for imaging
+03:34:28   Do requested auto-focus...
+03:34:31   Search 15 deg-square area for possible stars
+03:34:31   Looking for stars between mags 6 and 9
+03:34:31   Found mag 6.1 star, USNOA2 1125-06788360; nothing within 1666 arcsec.
+03:34:31   Star J2000 coordinates RA=13:43:45 Dec=22° 42' 02"
+03:34:31   Using star at mag 6.1. Slew to star.
+03:34:31   Start slew to AutoFocus...
+03:34:42   (wait for slew to complete)
+03:34:52   (slew complete)
+03:34:52   Doing auto-center...
+03:34:52   Switching from z to g filter for pointing exposure
+03:34:52   Focus change of -70 steps required
+03:34:57   (taking 10 sec. exposure, g filter, binning = 4)
+03:34:57   (using Monochrome readout mode)
+03:34:59   (starting exposure)
+03:35:09   (exposure complete)
+03:35:12   (exposure complete and image downloaded)
+03:35:13   Image finished
+03:35:13   Plate-solve pointing image.
+03:35:13   34 image stars found
+03:35:14   70 catalog stars found
+03:35:14 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+03:35:14   Start slew to offset...
+03:35:22   (wait for slew to complete)
+03:35:26   (slew complete)
+03:35:26   (taking 10 sec. exposure, g filter, binning = 4)
+03:35:26   (using Monochrome readout mode)
+03:35:26   (starting exposure)
+03:35:37   (exposure complete)
+03:35:39   (exposure complete and image downloaded)
+03:35:41   Image finished
+03:35:41   Plate-solve pointing image.
+03:35:41   8 image stars found
+03:35:41   77 catalog stars found
+03:35:42   Solved! 8 stars matched.
+03:35:42   Average residual is 0.9 arcsec.
+03:35:42   Pointing error is 0.650 arcmin @ angle 343.42
+03:35:42   True focal length is 4029.7 mm.
+03:35:42   True binned plate scales (arcsec/pix): H = 2.66 V = 2.68
+03:35:42   True image center (J2000): 13h 43m 44.4s   23° 05' 38.64"
+03:35:42   Imager sky position angle is 359.7 deg.
+03:35:42   Re-slew to target.
+03:35:42   Start slew to AutoFocus...
+03:35:51   (wait for slew to complete)
+03:35:55   (slew complete)
+03:35:55   Target is now centered.
+03:35:55   (AF will use Monochrome readout mode)
+03:35:55   Starting Autofocus...
+03:35:56    21:35:55  
+03:35:56    21:35:56  ** Beginning Find Star **
+03:35:56    21:35:56  ...Filter 1: g (slot 1)
+03:35:56    21:35:56  ...Flux target: 300K
+03:35:56    21:35:56  ...CCD central region: 75%
+03:35:56    21:35:56  ...Star subframe width: 100
+03:35:56    21:35:56  ...Base exposure: 0.50 sec
+03:35:56    21:35:56  ...Min/Max exposure: 0.10 / 5.00 sec
+03:35:56    21:35:56  ...Target star binning: 2
+03:35:56    21:35:56  ...CCD central region: 75%
+03:35:56    21:35:56  Taking initial image
+03:35:58    21:35:58  ...Looking for star
+03:35:58    21:35:58  ...Superbin: 5
+03:35:59    21:35:58  ...Time: 0.0 sec
+03:35:59    21:35:59  Target star found
+03:35:59    21:35:59  ...Exp: 0.50  Bin: 2 HFD:  4.74 Flux: 394465
+03:35:59    21:35:59  ...Star X: 188 Y: 188 (bin: 2)
+03:36:00    21:36:00  ...Full frame Star X: 504 Y: 504 (bin: 2)
+03:36:00    21:36:00  Setting subframe parameters
+03:36:00    21:36:00  ...Focus binning: 1
+03:36:00    21:36:00  ...Frame width: 100
+03:36:01    21:36:00  ...Exposure: 0.50
+03:36:01    21:36:01  Taking subframe image
+03:36:03    21:36:03  Setting exposure: 0.36
+03:36:04    21:36:03  ...Exp: 0.36  Bin: 1 HFD:  4.24 Flux: 413757
+03:36:04    21:36:04  ...Star X: 49 Y: 48 (bin: 1)
+03:36:04    21:36:04  ...Full frame Star X: 503 Y: 502 (bin: 1)
+03:36:05    21:36:04  Target star found
+03:36:05    21:36:05  ** End Find Star **
+03:36:05    21:36:05  
+03:36:05    21:36:05  ** Beginning Focus Run **
+03:36:05    21:36:05  Running under automation: True
+03:36:06    21:36:06  FocusMax Version: 4.1.0.98
+03:36:06    21:36:06  Date: 6/1/2025 9:36:06 PM
+03:36:07    21:36:07  System: MySystem1
+03:36:07    21:36:07  Telescope RA: 13:44:59.3 Dec: +22:33:37.0
+03:36:07    21:36:07  Camera: Apogee USB/Net
+03:36:07    21:36:07  Focuser: TCS772.Focuser
+03:36:07    21:36:07  Filter: g (slot 1)
+03:36:07    21:36:07  ...Flux target: 300K
+03:36:07    21:36:07  ...Focus method: Standard
+03:36:08    21:36:07  ...LS: -0.134033 RS: 0.134375 PID: 15.13 NFHFD: 12
+03:36:08    21:36:08  ...Current position: 5580
+03:36:08    21:36:08  ...Current temperature: 0.0
+03:36:09    21:36:08  ...Focus calculation method: MinMaxClip
+03:36:09    21:36:09  ...Move direction: Out
+03:36:09    21:36:09  ...Focus bin: 1
+03:36:10    21:36:09  ...Frame width: 100
+03:36:10    21:36:10  ...Focus exposure: 0.36 sec
+03:36:11    21:36:10  Moving to: 5500
+03:36:22    21:36:22  Setting exposure: 0.35
+03:36:23    21:36:22  ...Exp: 0.35  Bin: 1 HFD: 10.16 Flux: 311437
+03:36:23    21:36:23  ...Star X: 51 Y: 50 (bin: 1)
+03:36:23    21:36:23  ...Full frame Star X: 504 Y: 502 (bin: 1)
+03:36:24    21:36:23  Pos.,    HFD, X, Y, Flux, Pixel, Count
+03:36:24    21:36:24  5500, 10.16, 504, 502, 311437, 5036,  1
+03:36:25    21:36:24  On correct side of focus
+03:36:25    21:36:25  Move to start HFD: 15
+03:36:29    21:36:28  Pos.,    HFD, X, Y, Flux, Pixel, Count
+03:36:29    21:36:29  5460, 13.50, 505, 501, 304997, 4581,  1
+03:36:29    21:36:29  Sampling to determine NearFocus move
+03:36:31    21:36:30  Pos.,    HFD, X, Y, Flux, Pixel, Count
+03:36:31    21:36:31  5460, 13.90, 505, 502, 305333, 4581,  1
+03:36:33    21:36:33  5458, 13.70, 505, 501, 311542, 4581,  1
+03:36:34    21:36:34  5458, 14.66, 505, 502, 308168, 4581,  1
+03:36:34    21:36:34  Moving to: 5474
+03:36:36    21:36:36  Near Focus HFD: 12
+03:36:36    21:36:36  ** Starting Near Focus **
+03:36:38    21:36:37  Pos.,    HFD, MeanFocus, X, Y, Flux, Pixel, Count
+03:36:38    21:36:38  5474, 11.75, 5554, 505, 501, 294608, 5594,  1
+03:36:39    21:36:39  5474, 12.93, 5559, 505, 501, 297069, 4793,  1
+03:36:41    21:36:41  5474, 12.88, 5560, 505, 502, 304021, 4544,  1
+03:36:43    21:36:42  5474, 13.04, 5561, 505, 502, 306094, 4243,  1
+03:36:44    21:36:44  5474, 12.34, 5560, 505, 502, 305762, 4300,  1
+03:36:45    21:36:45  5474, 13.03, 5561, 505, 502, 299139, 4878,  1
+03:36:47    21:36:47  5474, 12.61, 5561, 505, 501, 301110, 5170,  1
+03:36:49    21:36:48  5474, 12.52, 5561, 505, 501, 305233, 4216,  1
+03:36:50    21:36:50  5474, 12.98, 5561, 505, 501, 299877, 5447,  1
+03:36:52    21:36:52  5474, 12.71, 5561, 505, 502, 305734, 4520,  1
+03:36:52    21:36:52  Focus position: 5561
+03:36:53    21:36:52  Moving to focus position: 5561
+03:37:30    21:37:30  Taking images at focus position
+03:37:31    21:37:30  Adjusting exposure based on flux target
+03:37:31    21:37:31  Setting exposure: 0.34
+03:37:34    21:37:34  Pos.,    HFD, X, Y, Flux, Pixel, Count,  FWHM (arc-sec)
+03:37:34    21:37:34  5563, 04.62, 504, 499, 295200, 14566,  1, 01.77
+03:37:35    21:37:35  5563, 05.24, 504, 499, 291278, 11911,  1, 02.14
+03:37:37    21:37:37  5563, 04.67, 504, 499, 298875, 16541,  1, 01.61
+03:37:39    21:37:39  5563, 05.45, 504, 499, 287285, 10674,  1, 02.43
+03:37:40    21:37:40  5563, 05.48, 504, 499, 297915, 10876,  1, 02.12
+03:37:42    21:37:42  5563, 05.72, 504, 499, 290732, 10999,  1, 02.04
+03:37:43    21:37:43  5563, 05.12, 504, 499, 294587, 11967,  1, 02.07
+03:37:44    21:37:44  Focus position = 5563  Avg HFD =  5.18  Avg FWHM =  2.03
+03:37:44    21:37:44  Temperature: 0.0  Filter: g (slot 1)
+03:37:45    21:37:44  ** AutoFocus Completed **
+03:37:45    21:37:45  Focus time: 98 sec
+03:37:45   FocusMax auto-focus successful!
+03:37:45     HFD = 5.18
+03:37:45     Focus position = 5563
+03:37:45   Slewing back to original position...
+03:37:45   Start slew to AF return...
+03:37:54   (wait for slew to complete)
+03:38:04   (slew complete)
+03:38:04   Autofocus finished.
+03:38:04   (no slew, scope already within max error of target)
+03:38:04   (doing post-focus pointing update...)
+03:38:04   Doing auto-center...
+03:38:04   (taking 10 sec. exposure, g filter, binning = 4)
+03:38:04   (using Monochrome readout mode)
+03:38:05   (starting exposure)
+03:38:15   (exposure complete)
+03:38:18   (exposure complete and image downloaded)
+03:38:19   Image finished
+03:38:19   Plate-solve pointing image.
+03:38:19   7 image stars found
+03:38:19   54 catalog stars found
+03:38:19 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+03:38:19   Start slew to offset...
+03:38:27   (wait for slew to complete)
+03:38:32   (slew complete)
+03:38:32   (taking 10 sec. exposure, g filter, binning = 4)
+03:38:32   (using Monochrome readout mode)
+03:38:32   (starting exposure)
+03:38:43   (exposure complete)
+03:38:45   (exposure complete and image downloaded)
+03:38:46   Image finished
+03:38:46   Plate-solve pointing image.
+03:38:46   12 image stars found
+03:38:46   60 catalog stars found
+03:38:47   Solved! 8 stars matched.
+03:38:47   Average residual is 0.68 arcsec.
+03:38:47   Pointing error is 0.597 arcmin @ angle 336.30
+03:38:47   True focal length is 3952.7 mm.
+03:38:47   True binned plate scales (arcsec/pix): H = 2.71 V = 2.68
+03:38:47   True image center (J2000): 13h 11m 51.3s   28° 16' 13.55"
+03:38:47   Imager sky position angle is 0.2 deg.
+03:38:48   Re-slew to target.
+03:38:48   Start slew to 43Bet Com...
+03:38:56   (wait for slew to complete)
+03:39:00   (slew complete)
+03:39:00   Target is now centered.
+03:39:02   === Place in plan ===
+03:39:02       Set 1 of 1
+03:39:02       Target is "43Bet Com" (1 of 1)
+03:39:02         Repeat 1 of 1 for this target
+03:39:02           Filter z (1 of 1)
+03:39:02             Image 1 of 1 for this filter
+03:39:02   Imaging to 43Bet Com_z_20250602_033902
+03:39:02   Switching from g to z filter for imaging
+03:39:02   Focus change of 70 steps required
+03:39:06   (taking 30 sec. exposure, z filter, binning = 1)
+03:39:06   (using Monochrome readout mode)
+03:39:07   (starting exposure)
+03:39:38   (exposure complete)
+03:39:40   (exposure complete and image downloaded)
+03:39:42   Image finished
+03:39:44   Plate-solve final image
+03:39:44   94 image stars found
+03:39:44   53 catalog stars found
+03:39:44 ** Failed to solve plate, possibly due to input plate scale being too far off.
+03:39:46   (turning tracking off for safety)
+03:39:47 End of run.
+ACP console log closed 02-Jun-2025 03:39:47 UTC

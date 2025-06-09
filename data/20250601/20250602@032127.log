@@ -1,0 +1,100 @@
+ACP console log opened 02-Jun-2025 03:21:27 UTC
+This is ACP version 8.2 (build 10, V8.2.2 Maint Rel)
+Licensed to William Ketzeback
+03:21:27 Logging to C:\Users\Public\Documents\ACP Web Data\Doc Root\logs\AS06\20250601\20250602@032127.log
+03:21:28 Initializing AcquireSupport V8.1.1
+03:21:28 Telescope is ACP->MaxPoint-ASCOM Remote Client 1 REMOTE DRIVER: TCS772.DFM.ASCOM.Telescope, driver V3
+03:21:29 Dome is MaxDome
+03:21:29 *1* Telescope and Dome connected OK. Can Telescope can upark?
+03:21:29 *2* Yes. Can connect to MaxIm Camera?
+03:21:30 *3* Yes. Can abort any active exposures? 
+03:21:30 *4* Yes. Setup camera download preferences
+03:21:30 *5* Successful. Can turn off camera subframes?
+03:21:30 *6* Can read MaxIm version and Imager name?
+03:21:30 MaxIm DL is version 6.50
+03:21:30 Imager is Apogee USB/Net
+03:21:30 *7* Can discover and setup filterwheel?
+03:21:30 Using focus offsets and star mags from FilterInfo.txt
+03:21:30 Selecting filter z from previous ACP run at 20250601@113315 UTC
+03:21:30 *8* Yes filterwheel discovered and configured
+03:21:30 Imager readout modes:
+03:21:30   0 is Monochrome
+03:21:30   1 is Monochrome (Preflash)
+03:21:30 Autoguiding is disabled
+03:21:30 (assuring that FocusMax is running now...)
+03:21:35 Calculated unbinned plate scales (arcsec/pix): H = 0.67 V = 0.67
+03:21:35 Calculated field of view (arcmin): H = 11.5 V = 11.5
+03:21:35 Plate solving With A2.0 (best for pointing)
+03:21:35 Mount supports tracking rate offsets
+03:21:35 This is AcquireImages V8.1.0
+03:21:35 Compiling plan...
+03:21:36 (using ACP Plan Compiler V8.1.0)
+03:21:36 ...plan OK!
+03:21:36 This plan has 1 live target(s), 10 images
+03:21:36 There are 5.0 min. of actual imaging time
+03:21:36 Image file set-numbers start with 1
+03:21:36 Starting run for plan last-plan-from-web.txt...
+03:21:38 ==== Calibration frame(s) ====
+03:21:38   (taking bias frame, binning = 1)
+03:21:38   (using Monochrome readout mode)
+03:21:38   (starting exposure)
+03:21:38   (exposure complete)
+03:21:52   (exposure complete and image downloaded)
+03:21:52   Image finished
+03:21:52   (taking bias frame, binning = 1)
+03:21:52   (using Monochrome readout mode)
+03:21:52   (starting exposure)
+03:21:52   (exposure complete)
+03:22:04   (exposure complete and image downloaded)
+03:22:05   Image finished
+03:22:05   (taking bias frame, binning = 1)
+03:22:05   (using Monochrome readout mode)
+03:22:05   (starting exposure)
+03:22:05   (exposure complete)
+03:22:17   (exposure complete and image downloaded)
+03:22:17   Image finished
+03:22:17   (taking bias frame, binning = 1)
+03:22:17   (using Monochrome readout mode)
+03:22:17   (starting exposure)
+03:22:17   (exposure complete)
+03:22:29   (exposure complete and image downloaded)
+03:22:29   Image finished
+03:22:29   (taking bias frame, binning = 1)
+03:22:29   (using Monochrome readout mode)
+03:22:29   (starting exposure)
+03:22:29   (exposure complete)
+03:22:43   (exposure complete and image downloaded)
+03:22:43   Image finished
+03:22:43   (taking 60 sec. dark frame, binning = 1)
+03:22:43   (using Monochrome readout mode)
+03:22:43   (starting exposure)
+03:23:44   (exposure complete)
+03:23:46   (exposure complete and image downloaded)
+03:23:46   Image finished
+03:23:46   (taking 60 sec. dark frame, binning = 1)
+03:23:46   (using Monochrome readout mode)
+03:23:46   (starting exposure)
+03:24:46   (exposure complete)
+03:24:50   (exposure complete and image downloaded)
+03:24:50   Image finished
+03:24:50   (taking 60 sec. dark frame, binning = 1)
+03:24:50   (using Monochrome readout mode)
+03:24:50   (starting exposure)
+03:25:51   (exposure complete)
+03:25:53   (exposure complete and image downloaded)
+03:25:53   Image finished
+03:25:53   (taking 60 sec. dark frame, binning = 1)
+03:25:53   (using Monochrome readout mode)
+03:25:53   (starting exposure)
+03:26:54   (exposure complete)
+03:26:56   (exposure complete and image downloaded)
+03:26:57   Image finished
+03:26:57   (taking 60 sec. dark frame, binning = 1)
+03:26:57   (using Monochrome readout mode)
+03:26:57   (starting exposure)
+03:27:58   (exposure complete)
+03:28:00   (exposure complete and image downloaded)
+03:28:00   Image finished
+03:28:01   (turning tracking off for safety)
+03:28:03 End of run.
+ACP console log closed 02-Jun-2025 03:28:03 UTC

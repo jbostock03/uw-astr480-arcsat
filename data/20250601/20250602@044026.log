@@ -1,0 +1,1836 @@
+ACP console log opened 02-Jun-2025 04:40:26 UTC
+This is ACP version 8.2 (build 10, V8.2.2 Maint Rel)
+Licensed to William Ketzeback
+04:40:26 Logging to C:\Users\Public\Documents\ACP Web Data\Doc Root\logs\AS06\20250601\20250602@044026.log
+04:40:27 Initializing AcquireSupport V8.1.1
+04:40:27 Telescope is ACP->MaxPoint-ASCOM Remote Client 1 REMOTE DRIVER: TCS772.DFM.ASCOM.Telescope, driver V3
+04:40:27 Dome is MaxDome
+04:40:27 *1* Telescope and Dome connected OK. Can Telescope can upark?
+04:40:27 *2* Yes. Can connect to MaxIm Camera?
+04:40:28 *3* Yes. Can abort any active exposures? 
+04:40:28 *4* Yes. Setup camera download preferences
+04:40:28 *5* Successful. Can turn off camera subframes?
+04:40:28 *6* Can read MaxIm version and Imager name?
+04:40:28 MaxIm DL is version 6.50
+04:40:28 Imager is Apogee USB/Net
+04:40:28 *7* Can discover and setup filterwheel?
+04:40:28 Using focus offsets and star mags from FilterInfo.txt
+04:40:28 Selecting filter z from previous ACP run at 20250602@041012 UTC
+04:40:28 *8* Yes filterwheel discovered and configured
+04:40:28 Imager readout modes:
+04:40:28   0 is Monochrome
+04:40:28   1 is Monochrome (Preflash)
+04:40:28 Autoguiding is disabled
+04:40:28 (assuring that FocusMax is running now...)
+04:40:33 Calculated unbinned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:40:33 Calculated field of view (arcmin): H = 11.5 V = 11.5
+04:40:33 Plate solving With A2.0 (best for pointing)
+04:40:33 Mount supports tracking rate offsets
+04:40:33 This is AcquireImages V8.1.0
+04:40:33 Compiling plan...
+04:40:34 (using ACP Plan Compiler V8.1.0)
+04:40:34 ...plan OK!
+04:40:34 This plan has 1 live target(s), 60 images
+04:40:34 There are 60.0 min. of actual imaging time
+04:40:34 Image file set-numbers start with 1
+04:40:34 Periodic auto focus every 30 min.
+04:40:34 (includes a plan-start auto focus)
+04:40:34 Starting run for plan last-plan-from-web.txt...
+04:40:34 Autofocus will be done every 30 min.
+04:40:36 ==== Starting target XO1-b ====
+04:40:36 ;
+04:40:36 ; Single target color series plan by AS06, created Mon, 2 Jun 2025 04:40:25 UTC
+04:40:36 ;
+04:40:36   (turning tracking on for live image(s))
+04:40:38   Start slew to XO1-b...
+04:40:46   (wait for slew to complete)
+04:40:50   (slew complete)
+04:40:50   (request plan-start pointing update)
+04:40:50   Ready for XO1-b (# 1 of 1 in set 1)
+04:40:53   Selecting z filter (3) for imaging
+04:40:53   Do requested auto-focus...
+04:40:55   Search 15 deg-square area for possible stars
+04:40:56   Looking for stars between mags 6 and 9
+04:40:56   Found mag 6.1 star, USNOA2 1050-07782539; nothing within 79 arcsec.
+04:40:56   Star J2000 coordinates RA=16:07:22 Dec=21° 49' 21"
+04:40:56   Using star at mag 6.1. Slew to star.
+04:40:56   Start slew to AutoFocus...
+04:41:05   (wait for slew to complete)
+04:41:09   (slew complete)
+04:41:09   Doing auto-center...
+04:41:09   Switching from z to g filter for pointing exposure
+04:41:09   Focus change of -70 steps required
+04:41:13   (taking 10 sec. exposure, g filter, binning = 4)
+04:41:14   (using Monochrome readout mode)
+04:41:16   (starting exposure)
+04:41:26   (exposure complete)
+04:41:29   (exposure complete and image downloaded)
+04:41:30   Image finished
+04:41:30   Plate-solve pointing image.
+04:41:30   39 image stars found
+04:41:30   163 catalog stars found
+04:41:32   Solved! 19 stars matched.
+04:41:32   Average residual is 0.8 arcsec.
+04:41:32   Pointing error is 0.734 arcmin @ angle 6.35
+04:41:32   True focal length is 4023.0 mm.
+04:41:32   True binned plate scales (arcsec/pix): H = 2.66 V = 2.67
+04:41:32   True image center (J2000): 16h 07m 22.5s   21° 50' 05.25"
+04:41:32   Imager sky position angle is 359.7 deg.
+04:41:32   Within max error tolerance, no re-slew needed.
+04:41:32   Target is now centered.
+04:41:32   (AF will use Monochrome readout mode)
+04:41:32   Starting Autofocus...
+04:41:32    22:41:32  
+04:41:33    22:41:32  ** Beginning Find Star **
+04:41:33    22:41:33  ...Filter 1: g (slot 1)
+04:41:33    22:41:33  ...Flux target: 300K
+04:41:34    22:41:33  ...CCD central region: 75%
+04:41:34    22:41:34  ...Star subframe width: 100
+04:41:34    22:41:34  ...Base exposure: 0.50 sec
+04:41:34    22:41:34  ...Min/Max exposure: 0.10 / 5.00 sec
+04:41:35    22:41:34  ...Target star binning: 2
+04:41:35    22:41:35  ...CCD central region: 75%
+04:41:36    22:41:35  Taking initial image
+04:41:38    22:41:38  ...Looking for star
+04:41:39    22:41:38  ...Superbin: 5
+04:41:39    22:41:39  ...Time: 1.0 sec
+04:41:39    22:41:39  Target star found
+04:41:40    22:41:39  ...Exp: 0.50  Bin: 2 HFD:  5.03 Flux: 385267
+04:41:40    22:41:40  ...Star X: 194 Y: 222 (bin: 2)
+04:41:40    22:41:40  ...Full frame Star X: 516 Y: 572 (bin: 2)
+04:41:40    22:41:40  Setting subframe parameters
+04:41:41    22:41:41  ...Focus binning: 1
+04:41:41    22:41:41  ...Frame width: 100
+04:41:41    22:41:41  ...Exposure: 0.50
+04:41:42    22:41:42  Taking subframe image
+04:41:44    22:41:43  Setting exposure: 0.37
+04:41:44    22:41:44  ...Exp: 0.37  Bin: 1 HFD:  4.15 Flux: 409390
+04:41:44    22:41:44  ...Star X: 51 Y: 50 (bin: 1)
+04:41:45    22:41:44  ...Full frame Star X: 517 Y: 572 (bin: 1)
+04:41:45    22:41:45  Target star found
+04:41:45    22:41:45  ** End Find Star **
+04:41:46    22:41:45  
+04:41:46    22:41:46  ** Beginning Focus Run **
+04:41:46    22:41:46  Running under automation: True
+04:41:47    22:41:47  FocusMax Version: 4.1.0.98
+04:41:47    22:41:47  Date: 6/1/2025 10:41:47 PM
+04:41:48    22:41:48  System: MySystem1
+04:41:48    22:41:48  Telescope RA: 16:08:29.9 Dec: +21:45:15.1
+04:41:49    22:41:48  Camera: Apogee USB/Net
+04:41:49    22:41:49  Focuser: TCS772.Focuser
+04:41:49    22:41:49  Filter: g (slot 1)
+04:41:50    22:41:50  ...Flux target: 300K
+04:41:50    22:41:50  ...Focus method: Standard
+04:41:50    22:41:50  ...LS: -0.134033 RS: 0.134375 PID: 15.13 NFHFD: 12
+04:41:50    22:41:50  ...Current position: 5569
+04:41:51    22:41:51  ...Current temperature: 0.0
+04:41:51    22:41:51  ...Focus calculation method: MinMaxClip
+04:41:52    22:41:51  ...Move direction: Out
+04:41:53    22:41:52  ...Focus bin: 1
+04:41:53    22:41:53  ...Frame width: 100
+04:41:53    22:41:53  ...Focus exposure: 0.37 sec
+04:41:54    22:41:54  Moving to: 5488
+04:42:03    22:42:02  Setting exposure: 0.38
+04:42:03    22:42:03  ...Exp: 0.38  Bin: 1 HFD:  8.51 Flux: 295383
+04:42:04    22:42:03  ...Star X: 51 Y: 50 (bin: 1)
+04:42:04    22:42:04  ...Full frame Star X: 518 Y: 572 (bin: 1)
+04:42:04    22:42:04  Pos.,    HFD, X, Y, Flux, Pixel, Count
+04:42:04    22:42:04  5486, 08.51, 518, 572, 295383, 7107,  1
+04:42:05    22:42:04  On correct side of focus
+04:42:05    22:42:05  Move to start HFD: 15
+04:42:10    22:42:10  Pos.,    HFD, X, Y, Flux, Pixel, Count
+04:42:10    22:42:10  5438, 15.96, 518, 572, 310945, 4149,  1
+04:42:10    22:42:10  Sampling to determine NearFocus move
+04:42:12    22:42:12  Pos.,    HFD, X, Y, Flux, Pixel, Count
+04:42:12    22:42:12  5438, 16.37, 518, 572, 318096, 4149,  1
+04:42:14    22:42:14  5435, 16.61, 518, 572, 317517, 4149,  1
+04:42:15    22:42:15  5435, 16.16, 518, 572, 313023, 4149,  1
+04:42:16    22:42:15  Moving to: 5468
+04:42:19    22:42:19  Near Focus HFD: 12
+04:42:20    22:42:20  ** Starting Near Focus **
+04:42:21    22:42:21  Pos.,    HFD, MeanFocus, X, Y, Flux, Pixel, Count
+04:42:21    22:42:21  5468, 12.76, 5556, 517, 572, 320905, 4871,  1
+04:42:23    22:42:23  5468, 12.55, 5555, 517, 573, 314940, 4965,  1
+04:42:24    22:42:24  5468, 13.30, 5556, 518, 573, 327864, 5010,  1
+04:42:25    22:42:25  5468, 12.90, 5557, 518, 572, 311101, 4489,  1
+04:42:27    22:42:27  5468, 12.73, 5556, 518, 572, 314921, 4450,  1
+04:42:28    22:42:28  5468, 12.90, 5556, 517, 572, 317589, 5177,  1
+04:42:30    22:42:29  5468, 11.79, 5555, 517, 572, 310401, 5643,  1
+04:42:31    22:42:31  5468, 12.74, 5555, 517, 572, 323183, 5407,  1
+04:42:32    22:42:32  5468, 12.93, 5555, 517, 572, 311951, 5404,  1
+04:42:33    22:42:33  5468, 12.87, 5556, 517, 572, 318541, 5288,  1
+04:42:33    22:42:33  Focus position: 5556
+04:42:34    22:42:34  Moving to focus position: 5556
+04:42:41    22:42:40  Taking images at focus position
+04:42:41    22:42:41  Adjusting exposure based on flux target
+04:42:42    22:42:41  Setting exposure: 0.36
+04:42:44    22:42:44  Pos.,    HFD, X, Y, Flux, Pixel, Count,  FWHM (arc-sec)
+04:42:44    22:42:44  5559, 03.95, 516, 571, 296840, 18963,  1, 01.49
+04:42:46    22:42:45  5559, 03.95, 516, 571, 300782, 20841,  1, 01.46
+04:42:47    22:42:47  5559, 03.86, 516, 571, 296761, 20684,  1, 01.36
+04:42:48    22:42:48  5559, 03.76, 516, 571, 301487, 19896,  1, 01.53
+04:42:50    22:42:50  5559, 03.77, 516, 571, 298597, 22730,  1, 01.33
+04:42:51    22:42:51  5559, 04.26, 517, 570, 295453, 17592,  1, 01.57
+04:42:53    22:42:52  5559, 04.86, 517, 571, 297073, 15261,  1, 02.05
+04:42:53    22:42:53  Focus position = 5559  Avg HFD =  4.06  Avg FWHM =  1.54
+04:42:53    22:42:53  Temperature: 0.0  Filter: g (slot 1)
+04:42:53    22:42:53  ** AutoFocus Completed **
+04:42:54    22:42:53  Focus time: 63 sec
+04:42:54   FocusMax auto-focus successful!
+04:42:54     HFD = 4.06
+04:42:54     Focus position = 5559
+04:42:54   Slewing back to original position...
+04:42:54   Start slew to AF return...
+04:43:04   (wait for slew to complete)
+04:43:08   (slew complete)
+04:43:08   Autofocus finished.
+04:43:08   (no slew, scope already within max error of target)
+04:43:08   (doing post-focus pointing update...)
+04:43:08   Doing auto-center...
+04:43:08   (taking 10 sec. exposure, g filter, binning = 4)
+04:43:08   (using Monochrome readout mode)
+04:43:09   (starting exposure)
+04:43:19   (exposure complete)
+04:43:21   (exposure complete and image downloaded)
+04:43:23   Image finished
+04:43:23   Plate-solve pointing image.
+04:43:23   17 image stars found
+04:43:23   123 catalog stars found
+04:43:24   Solved! 14 stars matched.
+04:43:24   Average residual is 0.68 arcsec.
+04:43:24   Pointing error is 0.664 arcmin @ angle 3.45
+04:43:24   True focal length is 4005.0 mm.
+04:43:24   True binned plate scales (arcsec/pix): H = 2.67 V = 2.68
+04:43:24   True image center (J2000): 16h 02m 12.0s   28° 10' 50.44"
+04:43:24   Imager sky position angle is 359.9 deg.
+04:43:24   Within max error tolerance, no re-slew needed.
+04:43:24   Target is now centered.
+04:43:25   === Place in plan ===
+04:43:25       Set 1 of 1
+04:43:25       Target is "XO1-b" (1 of 1)
+04:43:25         Repeat 1 of 1 for this target
+04:43:25           Filter z (1 of 1)
+04:43:25             Image 1 of 60 for this filter
+04:43:25   Imaging to XO1-b_z_20250602_044325
+04:43:25   Switching from g to z filter for imaging
+04:43:25   Focus change of 70 steps required
+04:43:29   (taking 60 sec. exposure, z filter, binning = 1)
+04:43:29   (using Monochrome readout mode)
+04:43:30   (starting exposure)
+04:44:31   (exposure complete)
+04:44:33   (exposure complete and image downloaded)
+04:44:35   Image finished
+04:44:37   Plate-solve final image
+04:44:37   42 image stars found
+04:44:37   123 catalog stars found
+04:44:38   Solved! 15 stars matched.
+04:44:38   Average residual is 0.39 arcsec.
+04:44:38   Pointing error is 0.604 arcmin @ angle 1.21
+04:44:38   True focal length is 4001.5 mm.
+04:44:38   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:44:38   True image center (J2000): 16h 02m 11.9s   28° 10' 46.90"
+04:44:38   Imager sky position angle is 359.9 deg.
+04:44:38   Image FWHM is 2.0 arcsec (3.06 pixels)
+04:44:38   Within max error tolerance, no recenter needed
+04:44:40   === Place in plan ===
+04:44:40       Set 1 of 1
+04:44:40       Target is "XO1-b" (1 of 1)
+04:44:40         Repeat 1 of 1 for this target
+04:44:40           Filter z (1 of 1)
+04:44:40             Image 2 of 60 for this filter
+04:44:40   Imaging to XO1-b_z_20250602_044440
+04:44:40   (taking 60 sec. exposure, z filter, binning = 1)
+04:44:40   (using Monochrome readout mode)
+04:44:40   (starting exposure)
+04:45:41   (exposure complete)
+04:45:43   (exposure complete and image downloaded)
+04:45:44   Image finished
+04:45:47   Plate-solve final image
+04:45:47   41 image stars found
+04:45:47   123 catalog stars found
+04:45:49   Solved! 10 stars matched.
+04:45:49   Average residual is 0.29 arcsec.
+04:45:49   Pointing error is 0.596 arcmin @ angle 0.76
+04:45:49   True focal length is 3994.9 mm.
+04:45:49   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:45:49   True image center (J2000): 16h 02m 11.9s   28° 10' 46.41"
+04:45:49   Imager sky position angle is 359.9 deg.
+04:45:49   Image FWHM is 1.8 arcsec (2.73 pixels)
+04:45:49   (avg FWHM = 1.99 arcsec)
+04:45:49   Within max error tolerance, no recenter needed
+04:45:50   === Place in plan ===
+04:45:50       Set 1 of 1
+04:45:50       Target is "XO1-b" (1 of 1)
+04:45:50         Repeat 1 of 1 for this target
+04:45:50           Filter z (1 of 1)
+04:45:50             Image 3 of 60 for this filter
+04:45:50   Imaging to XO1-b_z_20250602_044550
+04:45:50   (taking 60 sec. exposure, z filter, binning = 1)
+04:45:50   (using Monochrome readout mode)
+04:45:51   (starting exposure)
+04:46:51   (exposure complete)
+04:46:53   (exposure complete and image downloaded)
+04:46:54   Image finished
+04:46:57   Plate-solve final image
+04:46:57   45 image stars found
+04:46:57   123 catalog stars found
+04:46:58   Solved! 13 stars matched.
+04:46:58   Average residual is 0.24 arcsec.
+04:46:58   Pointing error is 0.601 arcmin @ angle 1.21
+04:46:58   True focal length is 3998.4 mm.
+04:46:58   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:46:58   True image center (J2000): 16h 02m 11.9s   28° 10' 46.70"
+04:46:58   Imager sky position angle is 359.9 deg.
+04:46:58   Image FWHM is 2.1 arcsec (3.16 pixels)
+04:46:58   (avg FWHM = 2.01 arcsec)
+04:46:58   Within max error tolerance, no recenter needed
+04:46:59   === Place in plan ===
+04:46:59       Set 1 of 1
+04:46:59       Target is "XO1-b" (1 of 1)
+04:46:59         Repeat 1 of 1 for this target
+04:46:59           Filter z (1 of 1)
+04:46:59             Image 4 of 60 for this filter
+04:46:59   Imaging to XO1-b_z_20250602_044659
+04:46:59   (taking 60 sec. exposure, z filter, binning = 1)
+04:46:59   (using Monochrome readout mode)
+04:47:00   (starting exposure)
+04:48:00   (exposure complete)
+04:48:04   (exposure complete and image downloaded)
+04:48:05   Image finished
+04:48:07   Plate-solve final image
+04:48:07   42 image stars found
+04:48:08   123 catalog stars found
+04:48:09   Solved! 15 stars matched.
+04:48:09   Average residual is 0.39 arcsec.
+04:48:09   Pointing error is 0.593 arcmin @ angle 3.72
+04:48:09   True focal length is 3999.7 mm.
+04:48:09   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:48:09   True image center (J2000): 16h 02m 12.0s   28° 10' 46.13"
+04:48:09   Imager sky position angle is 359.9 deg.
+04:48:09   Image FWHM is 1.9 arcsec (2.87 pixels)
+04:48:09   (avg FWHM = 1.98 arcsec)
+04:48:09   Within max error tolerance, no recenter needed
+04:48:10   === Place in plan ===
+04:48:10       Set 1 of 1
+04:48:10       Target is "XO1-b" (1 of 1)
+04:48:10         Repeat 1 of 1 for this target
+04:48:10           Filter z (1 of 1)
+04:48:10             Image 5 of 60 for this filter
+04:48:10   Imaging to XO1-b_z_20250602_044810
+04:48:10   (taking 60 sec. exposure, z filter, binning = 1)
+04:48:11   (using Monochrome readout mode)
+04:48:11   (starting exposure)
+04:49:12   (exposure complete)
+04:49:14   (exposure complete and image downloaded)
+04:49:15   Image finished
+04:49:18   Plate-solve final image
+04:49:18   43 image stars found
+04:49:18   123 catalog stars found
+04:49:19   Solved! 12 stars matched.
+04:49:20   Average residual is 0.29 arcsec.
+04:49:20   Pointing error is 0.593 arcmin @ angle 4.43
+04:49:20   True focal length is 3995.8 mm.
+04:49:20   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:49:20   True image center (J2000): 16h 02m 12.0s   28° 10' 46.14"
+04:49:20   Imager sky position angle is 359.9 deg.
+04:49:20   Image FWHM is 2.0 arcsec (2.97 pixels)
+04:49:20   (avg FWHM = 1.97 arcsec)
+04:49:20   Within max error tolerance, no recenter needed
+04:49:21   === Place in plan ===
+04:49:21       Set 1 of 1
+04:49:21       Target is "XO1-b" (1 of 1)
+04:49:21         Repeat 1 of 1 for this target
+04:49:21           Filter z (1 of 1)
+04:49:21             Image 6 of 60 for this filter
+04:49:21   Imaging to XO1-b_z_20250602_044921
+04:49:21   (taking 60 sec. exposure, z filter, binning = 1)
+04:49:21   (using Monochrome readout mode)
+04:49:22   (starting exposure)
+04:50:22   (exposure complete)
+04:50:25   (exposure complete and image downloaded)
+04:50:26   Image finished
+04:50:29   Plate-solve final image
+04:50:29   43 image stars found
+04:50:30   123 catalog stars found
+04:50:31   Solved! 15 stars matched.
+04:50:31   Average residual is 0.35 arcsec.
+04:50:31   Pointing error is 0.592 arcmin @ angle 4.43
+04:50:31   True focal length is 4000.1 mm.
+04:50:31   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:50:31   True image center (J2000): 16h 02m 12.0s   28° 10' 46.05"
+04:50:31   Imager sky position angle is 359.9 deg.
+04:50:31   Image FWHM is 1.8 arcsec (2.73 pixels)
+04:50:31   (avg FWHM = 1.97 arcsec)
+04:50:31   Within max error tolerance, no recenter needed
+04:50:33   === Place in plan ===
+04:50:33       Set 1 of 1
+04:50:33       Target is "XO1-b" (1 of 1)
+04:50:33         Repeat 1 of 1 for this target
+04:50:33           Filter z (1 of 1)
+04:50:33             Image 7 of 60 for this filter
+04:50:33   Imaging to XO1-b_z_20250602_045033
+04:50:33   (taking 60 sec. exposure, z filter, binning = 1)
+04:50:33   (using Monochrome readout mode)
+04:50:33   (starting exposure)
+04:51:33   (exposure complete)
+04:51:36   (exposure complete and image downloaded)
+04:51:38   Image finished
+04:51:40   Plate-solve final image
+04:51:40   41 image stars found
+04:51:40   123 catalog stars found
+04:51:41   Solved! 12 stars matched.
+04:51:41   Average residual is 0.34 arcsec.
+04:51:41   Pointing error is 0.582 arcmin @ angle 7.15
+04:51:42   True focal length is 3996.2 mm.
+04:51:42   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:51:42   True image center (J2000): 16h 02m 12.2s   28° 10' 45.32"
+04:51:42   Imager sky position angle is 359.9 deg.
+04:51:42   Image FWHM is 1.9 arcsec (2.82 pixels)
+04:51:42   (avg FWHM = 1.91 arcsec)
+04:51:42   Within max error tolerance, no recenter needed
+04:51:43   === Place in plan ===
+04:51:43       Set 1 of 1
+04:51:43       Target is "XO1-b" (1 of 1)
+04:51:43         Repeat 1 of 1 for this target
+04:51:43           Filter z (1 of 1)
+04:51:43             Image 8 of 60 for this filter
+04:51:43   Imaging to XO1-b_z_20250602_045143
+04:51:43   (taking 60 sec. exposure, z filter, binning = 1)
+04:51:43   (using Monochrome readout mode)
+04:51:43   (starting exposure)
+04:52:44   (exposure complete)
+04:52:46   (exposure complete and image downloaded)
+04:52:47   Image finished
+04:52:50   Plate-solve final image
+04:52:50   40 image stars found
+04:52:51   123 catalog stars found
+04:52:52   Solved! 12 stars matched.
+04:52:52   Average residual is 0.37 arcsec.
+04:52:52   Pointing error is 0.582 arcmin @ angle 8.68
+04:52:52   True focal length is 4003.3 mm.
+04:52:52   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:52:52   True image center (J2000): 16h 02m 12.2s   28° 10' 45.16"
+04:52:52   Imager sky position angle is 0.0 deg.
+04:52:52   Image FWHM is 1.7 arcsec (2.58 pixels)
+04:52:52   (avg FWHM = 1.86 arcsec)
+04:52:52   Within max error tolerance, no recenter needed
+04:52:53   === Place in plan ===
+04:52:53       Set 1 of 1
+04:52:53       Target is "XO1-b" (1 of 1)
+04:52:53         Repeat 1 of 1 for this target
+04:52:53           Filter z (1 of 1)
+04:52:53             Image 9 of 60 for this filter
+04:52:53   Imaging to XO1-b_z_20250602_045253
+04:52:53   (taking 60 sec. exposure, z filter, binning = 1)
+04:52:53   (using Monochrome readout mode)
+04:52:54   (starting exposure)
+04:53:54   (exposure complete)
+04:53:57   (exposure complete and image downloaded)
+04:53:58   Image finished
+04:54:00   Plate-solve final image
+04:54:00   39 image stars found
+04:54:01   123 catalog stars found
+04:54:02   Solved! 13 stars matched.
+04:54:02   Average residual is 0.31 arcsec.
+04:54:02   Pointing error is 0.576 arcmin @ angle 9.97
+04:54:02   True focal length is 3997.8 mm.
+04:54:02   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:54:02   True image center (J2000): 16h 02m 12.3s   28° 10' 44.69"
+04:54:02   Imager sky position angle is 0.1 deg.
+04:54:02   Image FWHM is 1.8 arcsec (2.63 pixels)
+04:54:02   (avg FWHM = 1.80 arcsec)
+04:54:02   Within max error tolerance, no recenter needed
+04:54:04   === Place in plan ===
+04:54:04       Set 1 of 1
+04:54:04       Target is "XO1-b" (1 of 1)
+04:54:04         Repeat 1 of 1 for this target
+04:54:04           Filter z (1 of 1)
+04:54:04             Image 10 of 60 for this filter
+04:54:04   Imaging to XO1-b_z_20250602_045404
+04:54:04   (taking 60 sec. exposure, z filter, binning = 1)
+04:54:04   (using Monochrome readout mode)
+04:54:05   (starting exposure)
+04:55:05   (exposure complete)
+04:55:07   (exposure complete and image downloaded)
+04:55:08   Image finished
+04:55:11   Plate-solve final image
+04:55:11   40 image stars found
+04:55:11   123 catalog stars found
+04:55:12   Solved! 13 stars matched.
+04:55:12   Average residual is 0.4 arcsec.
+04:55:12   Pointing error is 0.578 arcmin @ angle 11.89
+04:55:12   True focal length is 4000.6 mm.
+04:55:12   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:55:12   True image center (J2000): 16h 02m 12.4s   28° 10' 44.61"
+04:55:12   Imager sky position angle is 359.9 deg.
+04:55:12   Image FWHM is 2.2 arcsec (3.23 pixels)
+04:55:12   (avg FWHM = 1.88 arcsec)
+04:55:12   Within max error tolerance, no recenter needed
+04:55:14   === Place in plan ===
+04:55:14       Set 1 of 1
+04:55:14       Target is "XO1-b" (1 of 1)
+04:55:14         Repeat 1 of 1 for this target
+04:55:14           Filter z (1 of 1)
+04:55:14             Image 11 of 60 for this filter
+04:55:14   Imaging to XO1-b_z_20250602_045514
+04:55:14   (taking 60 sec. exposure, z filter, binning = 1)
+04:55:14   (using Monochrome readout mode)
+04:55:14   (starting exposure)
+04:56:15   (exposure complete)
+04:56:17   (exposure complete and image downloaded)
+04:56:18   Image finished
+04:56:21   Plate-solve final image
+04:56:21   108 image stars found
+04:56:21   123 catalog stars found
+04:56:22   Solved! 14 stars matched.
+04:56:22   Average residual is 0.4 arcsec.
+04:56:22   Pointing error is 0.581 arcmin @ angle 14.35
+04:56:22   True focal length is 4000.8 mm.
+04:56:22   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:56:22   True image center (J2000): 16h 02m 12.5s   28° 10' 44.42"
+04:56:22   Imager sky position angle is 359.9 deg.
+04:56:22   Image FWHM is 1.9 arcsec (2.87 pixels)
+04:56:22   (avg FWHM = 1.89 arcsec)
+04:56:22   Within max error tolerance, no recenter needed
+04:56:23   === Place in plan ===
+04:56:23       Set 1 of 1
+04:56:23       Target is "XO1-b" (1 of 1)
+04:56:23         Repeat 1 of 1 for this target
+04:56:23           Filter z (1 of 1)
+04:56:23             Image 12 of 60 for this filter
+04:56:23   Imaging to XO1-b_z_20250602_045623
+04:56:23   (taking 60 sec. exposure, z filter, binning = 1)
+04:56:23   (using Monochrome readout mode)
+04:56:24   (starting exposure)
+04:57:25   (exposure complete)
+04:57:27   (exposure complete and image downloaded)
+04:57:28   Image finished
+04:57:31   Plate-solve final image
+04:57:31   27 image stars found
+04:57:31   123 catalog stars found
+04:57:32   Solved! 9 stars matched.
+04:57:32   Average residual is 0.31 arcsec.
+04:57:32   Pointing error is 0.584 arcmin @ angle 17.44
+04:57:32   True focal length is 3995.3 mm.
+04:57:32   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:57:32   True image center (J2000): 16h 02m 12.6s   28° 10' 44.08"
+04:57:32   Imager sky position angle is 0.0 deg.
+04:57:32   Image FWHM is 1.9 arcsec (2.86 pixels)
+04:57:32   (avg FWHM = 1.94 arcsec)
+04:57:32   Within max error tolerance, no recenter needed
+04:57:33   === Place in plan ===
+04:57:33       Set 1 of 1
+04:57:33       Target is "XO1-b" (1 of 1)
+04:57:33         Repeat 1 of 1 for this target
+04:57:33           Filter z (1 of 1)
+04:57:33             Image 13 of 60 for this filter
+04:57:33   Imaging to XO1-b_z_20250602_045733
+04:57:33   (taking 60 sec. exposure, z filter, binning = 1)
+04:57:33   (using Monochrome readout mode)
+04:57:33   (starting exposure)
+04:58:34   (exposure complete)
+04:58:36   (exposure complete and image downloaded)
+04:58:37   Image finished
+04:58:40   Plate-solve final image
+04:58:40   29 image stars found
+04:58:41   123 catalog stars found
+04:58:42   Solved! 14 stars matched.
+04:58:42   Average residual is 0.33 arcsec.
+04:58:42   Pointing error is 0.575 arcmin @ angle 17.80
+04:58:42   True focal length is 4001.7 mm.
+04:58:42   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:58:42   True image center (J2000): 16h 02m 12.6s   28° 10' 43.50"
+04:58:42   Imager sky position angle is 0.0 deg.
+04:58:42   Image FWHM is 1.8 arcsec (2.75 pixels)
+04:58:42   (avg FWHM = 1.96 arcsec)
+04:58:42   Within max error tolerance, no recenter needed
+04:58:43   === Place in plan ===
+04:58:43       Set 1 of 1
+04:58:43       Target is "XO1-b" (1 of 1)
+04:58:43         Repeat 1 of 1 for this target
+04:58:43           Filter z (1 of 1)
+04:58:43             Image 14 of 60 for this filter
+04:58:43   Imaging to XO1-b_z_20250602_045843
+04:58:43   (taking 60 sec. exposure, z filter, binning = 1)
+04:58:43   (using Monochrome readout mode)
+04:58:43   (starting exposure)
+04:59:43   (exposure complete)
+04:59:46   (exposure complete and image downloaded)
+04:59:47   Image finished
+04:59:50   Plate-solve final image
+04:59:50   29 image stars found
+04:59:50   123 catalog stars found
+04:59:51   Solved! 8 stars matched.
+04:59:52   Average residual is 0.29 arcsec.
+04:59:52   Pointing error is 0.579 arcmin @ angle 19.50
+04:59:52   True focal length is 3993.9 mm.
+04:59:52   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+04:59:52   True image center (J2000): 16h 02m 12.7s   28° 10' 43.41"
+04:59:52   Imager sky position angle is 359.8 deg.
+04:59:52   Image FWHM is 1.7 arcsec (2.54 pixels)
+04:59:52   (avg FWHM = 1.85 arcsec)
+04:59:52   Within max error tolerance, no recenter needed
+04:59:53   === Place in plan ===
+04:59:53       Set 1 of 1
+04:59:53       Target is "XO1-b" (1 of 1)
+04:59:53         Repeat 1 of 1 for this target
+04:59:53           Filter z (1 of 1)
+04:59:53             Image 15 of 60 for this filter
+04:59:53   Imaging to XO1-b_z_20250602_045953
+04:59:53   (taking 60 sec. exposure, z filter, binning = 1)
+04:59:53   (using Monochrome readout mode)
+04:59:53   (starting exposure)
+05:00:53   (exposure complete)
+05:00:56   (exposure complete and image downloaded)
+05:00:57   Image finished
+05:00:59   Plate-solve final image
+05:01:00   40 image stars found
+05:01:00   123 catalog stars found
+05:01:01   Solved! 11 stars matched.
+05:01:01   Average residual is 0.38 arcsec.
+05:01:01   Pointing error is 0.579 arcmin @ angle 20.15
+05:01:01   True focal length is 3987.6 mm.
+05:01:01   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:01:01   True image center (J2000): 16h 02m 12.7s   28° 10' 43.25"
+05:01:01   Imager sky position angle is 0.1 deg.
+05:01:01   Image FWHM is 1.6 arcsec (2.38 pixels)
+05:01:01   (avg FWHM = 1.77 arcsec)
+05:01:01   Within max error tolerance, no recenter needed
+05:01:02   === Place in plan ===
+05:01:02       Set 1 of 1
+05:01:02       Target is "XO1-b" (1 of 1)
+05:01:02         Repeat 1 of 1 for this target
+05:01:02           Filter z (1 of 1)
+05:01:02             Image 16 of 60 for this filter
+05:01:02   Imaging to XO1-b_z_20250602_050102
+05:01:02   (taking 60 sec. exposure, z filter, binning = 1)
+05:01:02   (using Monochrome readout mode)
+05:01:03   (starting exposure)
+05:02:03   (exposure complete)
+05:02:06   (exposure complete and image downloaded)
+05:02:07   Image finished
+05:02:09   Plate-solve final image
+05:02:09   34 image stars found
+05:02:10   123 catalog stars found
+05:02:11   Solved! 10 stars matched.
+05:02:11   Average residual is 0.36 arcsec.
+05:02:11   Pointing error is 0.570 arcmin @ angle 19.67
+05:02:11   True focal length is 3998.0 mm.
+05:02:11   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:02:11   True image center (J2000): 16h 02m 12.7s   28° 10' 42.86"
+05:02:11   Imager sky position angle is 0.1 deg.
+05:02:11   Image FWHM is 1.6 arcsec (2.34 pixels)
+05:02:11   (avg FWHM = 1.68 arcsec)
+05:02:11   Within max error tolerance, no recenter needed
+05:02:12   === Place in plan ===
+05:02:12       Set 1 of 1
+05:02:12       Target is "XO1-b" (1 of 1)
+05:02:12         Repeat 1 of 1 for this target
+05:02:12           Filter z (1 of 1)
+05:02:12             Image 17 of 60 for this filter
+05:02:12   Imaging to XO1-b_z_20250602_050212
+05:02:12   (taking 60 sec. exposure, z filter, binning = 1)
+05:02:12   (using Monochrome readout mode)
+05:02:13   (starting exposure)
+05:03:13   (exposure complete)
+05:03:15   (exposure complete and image downloaded)
+05:03:16   Image finished
+05:03:19   Plate-solve final image
+05:03:20   35 image stars found
+05:03:20   123 catalog stars found
+05:03:21   Solved! 8 stars matched.
+05:03:21   Average residual is 0.33 arcsec.
+05:03:21   Pointing error is 0.579 arcmin @ angle 22.45
+05:03:21   True focal length is 4003.5 mm.
+05:03:21   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:03:21   True image center (J2000): 16h 02m 12.8s   28° 10' 42.76"
+05:03:21   Imager sky position angle is 359.9 deg.
+05:03:21   Image FWHM is 1.8 arcsec (2.71 pixels)
+05:03:21   (avg FWHM = 1.67 arcsec)
+05:03:21   Within max error tolerance, no recenter needed
+05:03:23   === Place in plan ===
+05:03:23       Set 1 of 1
+05:03:23       Target is "XO1-b" (1 of 1)
+05:03:23         Repeat 1 of 1 for this target
+05:03:23           Filter z (1 of 1)
+05:03:23             Image 18 of 60 for this filter
+05:03:23   Imaging to XO1-b_z_20250602_050323
+05:03:23   (taking 60 sec. exposure, z filter, binning = 1)
+05:03:23   (using Monochrome readout mode)
+05:03:23   (starting exposure)
+05:04:24   (exposure complete)
+05:04:26   (exposure complete and image downloaded)
+05:04:27   Image finished
+05:04:31   Plate-solve final image
+05:04:31   35 image stars found
+05:04:31   123 catalog stars found
+05:04:32   Solved! 8 stars matched.
+05:04:32   Average residual is 0.25 arcsec.
+05:04:32   Pointing error is 0.579 arcmin @ angle 23.85
+05:04:32   True focal length is 3998.6 mm.
+05:04:32   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:04:32   True image center (J2000): 16h 02m 12.9s   28° 10' 42.42"
+05:04:32   Imager sky position angle is 359.8 deg.
+05:04:32   Image FWHM is 1.4 arcsec (2.14 pixels)
+05:04:32   (avg FWHM = 1.60 arcsec)
+05:04:32   Within max error tolerance, no recenter needed
+05:04:33   === Place in plan ===
+05:04:33       Set 1 of 1
+05:04:33       Target is "XO1-b" (1 of 1)
+05:04:33         Repeat 1 of 1 for this target
+05:04:33           Filter z (1 of 1)
+05:04:33             Image 19 of 60 for this filter
+05:04:33   Imaging to XO1-b_z_20250602_050433
+05:04:33   (taking 60 sec. exposure, z filter, binning = 1)
+05:04:33   (using Monochrome readout mode)
+05:04:33   (starting exposure)
+05:05:34   (exposure complete)
+05:05:36   (exposure complete and image downloaded)
+05:05:37   Image finished
+05:05:40   Plate-solve final image
+05:05:40   38 image stars found
+05:05:40   123 catalog stars found
+05:05:41   Solved! 11 stars matched.
+05:05:41   Average residual is 0.33 arcsec.
+05:05:41   Pointing error is 0.569 arcmin @ angle 24.01
+05:05:41   True focal length is 3983.0 mm.
+05:05:41   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:05:41   True image center (J2000): 16h 02m 12.9s   28° 10' 41.84"
+05:05:41   Imager sky position angle is 359.9 deg.
+05:05:41   Image FWHM is 1.5 arcsec (2.27 pixels)
+05:05:41   (avg FWHM = 1.59 arcsec)
+05:05:41   Within max error tolerance, no recenter needed
+05:05:43   === Place in plan ===
+05:05:43       Set 1 of 1
+05:05:43       Target is "XO1-b" (1 of 1)
+05:05:43         Repeat 1 of 1 for this target
+05:05:43           Filter z (1 of 1)
+05:05:43             Image 20 of 60 for this filter
+05:05:43   Imaging to XO1-b_z_20250602_050543
+05:05:43   (taking 60 sec. exposure, z filter, binning = 1)
+05:05:43   (using Monochrome readout mode)
+05:05:43   (starting exposure)
+05:06:43   (exposure complete)
+05:06:46   (exposure complete and image downloaded)
+05:06:47   Image finished
+05:06:49   Plate-solve final image
+05:06:50   38 image stars found
+05:06:50   123 catalog stars found
+05:06:51   Solved! 10 stars matched.
+05:06:52   Average residual is 0.37 arcsec.
+05:06:52   Pointing error is 0.567 arcmin @ angle 25.09
+05:06:52   True focal length is 4000.2 mm.
+05:06:52   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:06:52   True image center (J2000): 16h 02m 12.9s   28° 10' 41.48"
+05:06:52   Imager sky position angle is 0.1 deg.
+05:06:52   Image FWHM is 1.5 arcsec (2.19 pixels)
+05:06:52   (avg FWHM = 1.56 arcsec)
+05:06:52   Within max error tolerance, no recenter needed
+05:06:53   === Place in plan ===
+05:06:53       Set 1 of 1
+05:06:53       Target is "XO1-b" (1 of 1)
+05:06:53         Repeat 1 of 1 for this target
+05:06:53           Filter z (1 of 1)
+05:06:53             Image 21 of 60 for this filter
+05:06:53   Imaging to XO1-b_z_20250602_050653
+05:06:53   (taking 60 sec. exposure, z filter, binning = 1)
+05:06:53   (using Monochrome readout mode)
+05:06:53   (starting exposure)
+05:07:54   (exposure complete)
+05:07:56   (exposure complete and image downloaded)
+05:07:57   Image finished
+05:08:00   Plate-solve final image
+05:08:01   34 image stars found
+05:08:01   123 catalog stars found
+05:08:02   Solved! 11 stars matched.
+05:08:02   Average residual is 0.36 arcsec.
+05:08:02   Pointing error is 0.569 arcmin @ angle 26.53
+05:08:02   True focal length is 4001.2 mm.
+05:08:02   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:08:02   True image center (J2000): 16h 02m 13.0s   28° 10' 41.19"
+05:08:02   Imager sky position angle is 359.9 deg.
+05:08:02   Image FWHM is 1.7 arcsec (2.54 pixels)
+05:08:02   (avg FWHM = 1.53 arcsec)
+05:08:02   Within max error tolerance, no recenter needed
+05:08:03   === Place in plan ===
+05:08:03       Set 1 of 1
+05:08:03       Target is "XO1-b" (1 of 1)
+05:08:03         Repeat 1 of 1 for this target
+05:08:03           Filter z (1 of 1)
+05:08:03             Image 22 of 60 for this filter
+05:08:03   Imaging to XO1-b_z_20250602_050803
+05:08:03   (taking 60 sec. exposure, z filter, binning = 1)
+05:08:03   (using Monochrome readout mode)
+05:08:03   (starting exposure)
+05:09:05   (exposure complete)
+05:09:07   (exposure complete and image downloaded)
+05:09:08   Image finished
+05:09:10   Plate-solve final image
+05:09:11   43 image stars found
+05:09:11   123 catalog stars found
+05:09:12   Solved! 11 stars matched.
+05:09:12   Average residual is 0.37 arcsec.
+05:09:12   Pointing error is 0.570 arcmin @ angle 26.94
+05:09:12   True focal length is 3987.7 mm.
+05:09:12   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:09:12   True image center (J2000): 16h 02m 13.0s   28° 10' 41.11"
+05:09:12   Imager sky position angle is 0.0 deg.
+05:09:12   Image FWHM is 1.9 arcsec (2.76 pixels)
+05:09:12   (avg FWHM = 1.64 arcsec)
+05:09:12   Within max error tolerance, no recenter needed
+05:09:13   === Place in plan ===
+05:09:13       Set 1 of 1
+05:09:13       Target is "XO1-b" (1 of 1)
+05:09:13         Repeat 1 of 1 for this target
+05:09:13           Filter z (1 of 1)
+05:09:13             Image 23 of 60 for this filter
+05:09:13   Imaging to XO1-b_z_20250602_050913
+05:09:13   (taking 60 sec. exposure, z filter, binning = 1)
+05:09:13   (using Monochrome readout mode)
+05:09:14   (starting exposure)
+05:10:15   (exposure complete)
+05:10:17   (exposure complete and image downloaded)
+05:10:18   Image finished
+05:10:20   Plate-solve final image
+05:10:21   38 image stars found
+05:10:21   123 catalog stars found
+05:10:22   Solved! 11 stars matched.
+05:10:22   Average residual is 0.32 arcsec.
+05:10:22   Pointing error is 0.568 arcmin @ angle 26.75
+05:10:22   True focal length is 3994.5 mm.
+05:10:22   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:10:22   True image center (J2000): 16h 02m 13.0s   28° 10' 41.07"
+05:10:22   Imager sky position angle is 359.9 deg.
+05:10:22   Image FWHM is 1.7 arcsec (2.51 pixels)
+05:10:22   (avg FWHM = 1.67 arcsec)
+05:10:22   Within max error tolerance, no recenter needed
+05:10:23   === Place in plan ===
+05:10:23       Set 1 of 1
+05:10:23       Target is "XO1-b" (1 of 1)
+05:10:23         Repeat 1 of 1 for this target
+05:10:23           Filter z (1 of 1)
+05:10:23             Image 24 of 60 for this filter
+05:10:23   Imaging to XO1-b_z_20250602_051023
+05:10:23   (taking 60 sec. exposure, z filter, binning = 1)
+05:10:23   (using Monochrome readout mode)
+05:10:23   (starting exposure)
+05:11:25   (exposure complete)
+05:11:27   (exposure complete and image downloaded)
+05:11:28   Image finished
+05:11:31   Plate-solve final image
+05:11:31   39 image stars found
+05:11:32   123 catalog stars found
+05:11:33   Solved! 13 stars matched.
+05:11:33   Average residual is 0.37 arcsec.
+05:11:33   Pointing error is 0.568 arcmin @ angle 27.66
+05:11:33   True focal length is 4000.1 mm.
+05:11:33   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:11:33   True image center (J2000): 16h 02m 13.0s   28° 10' 40.85"
+05:11:33   Imager sky position angle is 359.9 deg.
+05:11:33   Image FWHM is 1.6 arcsec (2.42 pixels)
+05:11:33   (avg FWHM = 1.71 arcsec)
+05:11:33   Within max error tolerance, no recenter needed
+05:11:34   === Place in plan ===
+05:11:34       Set 1 of 1
+05:11:34       Target is "XO1-b" (1 of 1)
+05:11:34         Repeat 1 of 1 for this target
+05:11:34           Filter z (1 of 1)
+05:11:34             Image 25 of 60 for this filter
+05:11:34   Imaging to XO1-b_z_20250602_051134
+05:11:34   (taking 60 sec. exposure, z filter, binning = 1)
+05:11:34   (using Monochrome readout mode)
+05:11:35   (starting exposure)
+05:12:35   (exposure complete)
+05:12:37   (exposure complete and image downloaded)
+05:12:38   Image finished
+05:12:41   Plate-solve final image
+05:12:41   41 image stars found
+05:12:42   123 catalog stars found
+05:12:43   Solved! 11 stars matched.
+05:12:43   Average residual is 0.37 arcsec.
+05:12:43   Pointing error is 0.564 arcmin @ angle 28.31
+05:12:43   True focal length is 3997.1 mm.
+05:12:43   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:12:43   True image center (J2000): 16h 02m 13.0s   28° 10' 40.46"
+05:12:43   Imager sky position angle is 359.9 deg.
+05:12:43   Image FWHM is 1.7 arcsec (2.48 pixels)
+05:12:43   (avg FWHM = 1.70 arcsec)
+05:12:43   Within max error tolerance, no recenter needed
+05:12:44   === Place in plan ===
+05:12:44       Set 1 of 1
+05:12:44       Target is "XO1-b" (1 of 1)
+05:12:44         Repeat 1 of 1 for this target
+05:12:44           Filter z (1 of 1)
+05:12:44             Image 26 of 60 for this filter
+05:12:44   Imaging to XO1-b_z_20250602_051244
+05:12:44   (taking 60 sec. exposure, z filter, binning = 1)
+05:12:44   (using Monochrome readout mode)
+05:12:44   (starting exposure)
+05:13:44   (exposure complete)
+05:13:47   (exposure complete and image downloaded)
+05:13:48   Image finished
+05:13:51   Plate-solve final image
+05:13:51   36 image stars found
+05:13:51   123 catalog stars found
+05:13:52   Solved! 12 stars matched.
+05:13:52   Average residual is 0.26 arcsec.
+05:13:52   Pointing error is 0.567 arcmin @ angle 28.73
+05:13:53   True focal length is 3988.2 mm.
+05:13:53   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:13:53   True image center (J2000): 16h 02m 13.1s   28° 10' 40.48"
+05:13:53   Imager sky position angle is 0.1 deg.
+05:13:53   Image FWHM is 1.6 arcsec (2.37 pixels)
+05:13:53   (avg FWHM = 1.64 arcsec)
+05:13:53   Within max error tolerance, no recenter needed
+05:13:54   Do periodic or plan-start auto-focus...
+05:13:57   Search 15 deg-square area for possible stars
+05:13:57   Looking for stars between mags 6 and 9
+05:13:57   Found mag 6.1 star, USNOA2 1050-07782539; nothing within 79 arcsec.
+05:13:57   Star J2000 coordinates RA=16:07:22 Dec=21° 49' 21"
+05:13:57   Using star at mag 6.1. Slew to star.
+05:13:57   Start slew to AutoFocus...
+05:14:06   (wait for slew to complete)
+05:14:39   (slew complete)
+05:14:39   Doing auto-center...
+05:14:39   Switching from z to g filter for pointing exposure
+05:14:39   Focus change of -70 steps required
+05:14:44   (taking 10 sec. exposure, g filter, binning = 4)
+05:14:44   (using Monochrome readout mode)
+05:14:46   (starting exposure)
+05:14:57   (exposure complete)
+05:14:59   (exposure complete and image downloaded)
+05:15:00   Image finished
+05:15:00   Plate-solve pointing image.
+05:15:00   13 image stars found
+05:15:01   163 catalog stars found
+05:15:01 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+05:15:01   Start slew to offset...
+05:15:36   (wait for slew to complete)
+05:16:08   (slew complete)
+05:16:08   (taking 10 sec. exposure, g filter, binning = 4)
+05:16:08   (using Monochrome readout mode)
+05:16:09   (starting exposure)
+05:16:19   (exposure complete)
+05:16:21   (exposure complete and image downloaded)
+05:16:22   Image finished
+05:16:22   Plate-solve pointing image.
+05:16:22   14 image stars found
+05:16:22   151 catalog stars found
+05:16:22 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+05:16:22   Start slew to AutoFocus...
+05:17:04   (wait for slew to complete)
+05:17:36   (slew complete)
+05:17:36   (AF will use Monochrome readout mode)
+05:17:36   Starting Autofocus...
+05:17:36    23:17:36  
+05:17:37    23:17:37  ** Beginning Find Star **
+05:17:37    23:17:37  ...Filter 1: g (slot 1)
+05:17:37    23:17:37  ...Flux target: 300K
+05:17:37    23:17:37  ...CCD central region: 75%
+05:17:37    23:17:37  ...Star subframe width: 100
+05:17:37    23:17:37  ...Base exposure: 0.50 sec
+05:17:37    23:17:37  ...Min/Max exposure: 0.10 / 5.00 sec
+05:17:37    23:17:37  ...Target star binning: 2
+05:17:37    23:17:37  ...CCD central region: 75%
+05:17:37    23:17:37  Taking initial image
+05:17:39    23:17:39  ...Looking for star
+05:17:40    23:17:39  ...Superbin: 5
+05:17:40    23:17:40  ...Time: 1.0 sec
+05:17:40    23:17:40  Target star found
+05:17:41    23:17:40  ...Exp: 0.50  Bin: 2 HFD:  4.15 Flux: 4958
+05:17:41    23:17:41  ...Star X: 205 Y: 213 (bin: 2)
+05:17:42    23:17:41  ...Full frame Star X: 538 Y: 554 (bin: 2)
+05:17:42    23:17:42  Setting subframe parameters
+05:17:42    23:17:42  ...Focus binning: 1
+05:17:42    23:17:42  ...Frame width: 100
+05:17:42    23:17:42  ...Exposure: 0.50
+05:17:42    23:17:42  Taking subframe image
+05:17:44    23:17:44  ** Star is too dim **
+05:17:44    23:17:44  Required exposure 5.00 is > 5.00 maximum exposure setting
+05:17:45    23:17:44  ...using maximum exposure: 5.00
+05:17:45    23:17:45  ...Exp: 5.00  Bin: 1 HFD:  3.99 Flux: 5115
+05:17:45    23:17:45  ...Star X: 51 Y: 49 (bin: 1)
+05:17:46    23:17:45  ...Full frame Star X: 539 Y: 553 (bin: 1)
+05:17:46    23:17:46  Target star found
+05:17:46    23:17:46  ** End Find Star **
+05:17:47    23:17:46  
+05:17:47    23:17:47  ** Beginning Focus Run **
+05:17:48    23:17:48  Running under automation: True
+05:17:48    23:17:48  FocusMax Version: 4.1.0.98
+05:17:48    23:17:48  Date: 6/1/2025 11:17:48 PM
+05:17:48    23:17:48  System: MySystem1
+05:17:48    23:17:48  Telescope RA: 01:27:12.9 Dec: +28:04:08.5
+05:17:48    23:17:48  Camera: Apogee USB/Net
+05:17:48    23:17:48  Focuser: TCS772.Focuser
+05:17:49    23:17:49  Filter: g (slot 1)
+05:17:49    23:17:49  ...Flux target: 300K
+05:17:49    23:17:49  ...Focus method: Standard
+05:17:49    23:17:49  ...LS: -0.134033 RS: 0.134375 PID: 15.13 NFHFD: 12
+05:17:49    23:17:49  ...Current position: 5559
+05:17:50    23:17:49  ...Current temperature: 0.0
+05:17:50    23:17:50  ...Focus calculation method: MinMaxClip
+05:17:50    23:17:50  ...Move direction: Out
+05:17:51    23:17:50  ...Focus bin: 1
+05:17:51    23:17:51  ...Frame width: 100
+05:17:51    23:17:51  ...Focus exposure: 5.00 sec
+05:17:51    23:17:51  Moving to: 5477
+05:18:03    23:18:03  ** Star is too dim **
+05:18:03    23:18:03  Required exposure 5.00 is > 5.00 maximum exposure setting
+05:18:03    23:18:03  ...using maximum exposure: 5.00
+05:18:04    23:18:03  ...Exp: 5.00  Bin: 1 HFD: 11.59 Flux: 51935
+05:18:04    23:18:04  ...Star X: 51 Y: 51 (bin: 1)
+05:18:04    23:18:04  ...Full frame Star X: 540 Y: 554 (bin: 1)
+05:18:05    23:18:05  Pos.,    HFD, X, Y, Flux, Pixel, Count
+05:18:05    23:18:05  5474, 11.59, 540, 554, 51935, 2326,  1
+05:18:05    23:18:05  On correct side of focus
+05:18:06    23:18:05  Move to start HFD: 15
+05:18:16    23:18:16  Pos.,    HFD, X, Y, Flux, Pixel, Count
+05:18:16    23:18:16  5451, 13.53, 540, 554, 51344, 2326,  1
+05:18:17    23:18:16  Sampling to determine NearFocus move
+05:18:23    23:18:22  Pos.,    HFD, X, Y, Flux, Pixel, Count
+05:18:23    23:18:23  5451, 14.70, 541, 554, 52006, 2326,  1
+05:18:30    23:18:29  5451, 14.80, 541, 553, 47545, 2326,  1
+05:18:36    23:18:35  5451, 14.40, 542, 553, 49082, 2326,  1
+05:18:36    23:18:36  Moving to: 5471
+05:18:37    23:18:37  Near Focus HFD: 12
+05:18:38    23:18:38  ** Starting Near Focus **
+05:18:43    23:18:43  Pos.,    HFD, MeanFocus, X, Y, Flux, Pixel, Count
+05:18:44    23:18:44  5474, 11.57, 5553, 542, 553, 49523, 2351,  1
+05:18:50    23:18:50  5474, 12.35, 5556, 542, 552, 49109, 2314,  1
+05:18:56    23:18:56  5474, 12.01, 5556, 542, 552, 49712, 2297,  1
+05:19:02    23:19:02  5474, 11.89, 5556, 542, 552, 51640, 2346,  1
+05:19:08    23:19:08  5474, 12.06, 5556, 542, 552, 50382, 2374,  1
+05:19:14    23:19:14  5474, 11.81, 5556, 541, 552, 50311, 2310,  1
+05:19:20    23:19:20  5474, 11.66, 5555, 542, 552, 49956, 2322,  1
+05:19:27    23:19:26  5474, 11.87, 5555, 542, 552, 49425, 2332,  1
+05:19:33    23:19:33  5474, 12.98, 5556, 542, 551, 49920, 2281,  1
+05:19:39    23:19:39  5474, 12.24, 5556, 542, 551, 50225, 2326,  1
+05:19:40    23:19:39  Focus position: 5556
+05:19:40    23:19:40  Moving to focus position: 5556
+05:19:48    23:19:48  Taking images at focus position
+05:19:48    23:19:48  Adjusting exposure based on flux target
+05:19:48    23:19:48  ** Star is too dim **
+05:19:48    23:19:48  Required exposure 5.00 is > 5.00 maximum exposure setting
+05:19:48    23:19:48  ...using maximum exposure: 5.00
+05:20:00    23:20:00  Pos.,    HFD, X, Y, Flux, Pixel, Count,  FWHM (arc-sec)
+05:20:00    23:20:00  5558, 03.78, 541, 550, 47507, 4721,  1, 01.35
+05:20:06    23:20:06  5558, 04.13, 540, 550, 49876, 4216,  1, 01.52
+05:20:12    23:20:12  5558, 04.20, 540, 550, 49395, 4016,  1, 01.58
+05:20:17    23:20:17  5558, 03.80, 540, 550, 49769, 4930,  1, 01.39
+05:20:23    23:20:23  5558, 04.37, 540, 550, 50709, 4225,  1, 01.61
+05:20:29    23:20:29  5558, 04.29, 540, 550, 50146, 4238,  1, 01.50
+05:20:35    23:20:35  5558, 04.33, 540, 550, 51556, 4293,  1, 01.51
+05:20:35    23:20:35  Focus position = 5558  Avg HFD =  4.13  Avg FWHM =  1.49
+05:20:36    23:20:36  Temperature: 0.0  Filter: g (slot 1)
+05:20:36    23:20:36  ** AutoFocus Completed **
+05:20:36    23:20:36  Focus time: 167 sec
+05:20:37   FocusMax auto-focus successful!
+05:20:37     HFD = 4.13
+05:20:37     Focus position = 5558
+05:20:37   Slewing back to original position...
+05:20:37   Start slew to AF return...
+05:20:46   (wait for slew to complete)
+05:21:12   (slew complete)
+05:21:12   Autofocus finished.
+05:21:12   Start slew to XO1-b...
+05:21:20   (wait for slew to complete)
+05:21:24   (slew complete)
+05:21:24   (doing post-focus pointing update...)
+05:21:24   Doing auto-center...
+05:21:24   (taking 10 sec. exposure, g filter, binning = 4)
+05:21:24   (using Monochrome readout mode)
+05:21:25   (starting exposure)
+05:21:35   (exposure complete)
+05:21:37   (exposure complete and image downloaded)
+05:21:38   Image finished
+05:21:38   Plate-solve pointing image.
+05:21:38   17 image stars found
+05:21:38   123 catalog stars found
+05:21:39   Solved! 15 stars matched.
+05:21:39   Average residual is 0.61 arcsec.
+05:21:39   Pointing error is 0.610 arcmin @ angle 35.75
+05:21:40   True focal length is 4002.0 mm.
+05:21:40   True binned plate scales (arcsec/pix): H = 2.68 V = 2.68
+05:21:40   True image center (J2000): 16h 02m 13.4s   28° 10' 40.37"
+05:21:40   Imager sky position angle is 359.9 deg.
+05:21:40   Within max error tolerance, no re-slew needed.
+05:21:40   Target is now centered.
+05:21:40   === Place in plan ===
+05:21:40       Set 1 of 1
+05:21:40       Target is "XO1-b" (1 of 1)
+05:21:40         Repeat 1 of 1 for this target
+05:21:40           Filter z (1 of 1)
+05:21:40             Image 27 of 60 for this filter
+05:21:40   Imaging to XO1-b_z_20250602_052140
+05:21:40   Switching from g to z filter for imaging
+05:21:40   Focus change of 70 steps required
+05:21:44   (taking 60 sec. exposure, z filter, binning = 1)
+05:21:45   (using Monochrome readout mode)
+05:21:46   (starting exposure)
+05:22:47   (exposure complete)
+05:22:49   (exposure complete and image downloaded)
+05:22:50   Image finished
+05:22:52   Plate-solve final image
+05:22:53   47 image stars found
+05:22:53   123 catalog stars found
+05:22:54   Solved! 11 stars matched.
+05:22:54   Average residual is 0.37 arcsec.
+05:22:54   Pointing error is 0.537 arcmin @ angle 36.44
+05:22:54   True focal length is 4000.0 mm.
+05:22:54   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:22:54   True image center (J2000): 16h 02m 13.3s   28° 10' 36.58"
+05:22:54   Imager sky position angle is 359.9 deg.
+05:22:54   Image FWHM is 1.6 arcsec (2.42 pixels)
+05:22:54   Within max error tolerance, no recenter needed
+05:22:55   === Place in plan ===
+05:22:55       Set 1 of 1
+05:22:55       Target is "XO1-b" (1 of 1)
+05:22:55         Repeat 1 of 1 for this target
+05:22:55           Filter z (1 of 1)
+05:22:55             Image 28 of 60 for this filter
+05:22:55   Imaging to XO1-b_z_20250602_052255
+05:22:55   (taking 60 sec. exposure, z filter, binning = 1)
+05:22:55   (using Monochrome readout mode)
+05:22:55   (starting exposure)
+05:23:56   (exposure complete)
+05:23:58   (exposure complete and image downloaded)
+05:23:59   Image finished
+05:24:01   Plate-solve final image
+05:24:02   48 image stars found
+05:24:02   123 catalog stars found
+05:24:03   Solved! 13 stars matched.
+05:24:03   Average residual is 0.25 arcsec.
+05:24:03   Pointing error is 0.534 arcmin @ angle 39.16
+05:24:03   True focal length is 4003.6 mm.
+05:24:03   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:24:03   True image center (J2000): 16h 02m 13.4s   28° 10' 35.48"
+05:24:03   Imager sky position angle is 359.9 deg.
+05:24:03   Image FWHM is 1.9 arcsec (2.82 pixels)
+05:24:03   (avg FWHM = 1.68 arcsec)
+05:24:03   Within max error tolerance, no recenter needed
+05:24:04   === Place in plan ===
+05:24:04       Set 1 of 1
+05:24:04       Target is "XO1-b" (1 of 1)
+05:24:04         Repeat 1 of 1 for this target
+05:24:04           Filter z (1 of 1)
+05:24:04             Image 29 of 60 for this filter
+05:24:04   Imaging to XO1-b_z_20250602_052404
+05:24:04   (taking 60 sec. exposure, z filter, binning = 1)
+05:24:04   (using Monochrome readout mode)
+05:24:05   (starting exposure)
+05:25:04   (exposure complete)
+05:25:07   (exposure complete and image downloaded)
+05:25:08   Image finished
+05:25:11   Plate-solve final image
+05:25:11   45 image stars found
+05:25:11   123 catalog stars found
+05:25:12   Solved! 13 stars matched.
+05:25:12   Average residual is 0.28 arcsec.
+05:25:12   Pointing error is 0.533 arcmin @ angle 39.73
+05:25:12   True focal length is 3991.2 mm.
+05:25:12   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:25:12   True image center (J2000): 16h 02m 13.4s   28° 10' 35.23"
+05:25:12   Imager sky position angle is 0.1 deg.
+05:25:12   Image FWHM is 1.7 arcsec (2.46 pixels)
+05:25:12   (avg FWHM = 1.69 arcsec)
+05:25:12   Within max error tolerance, no recenter needed
+05:25:13   === Place in plan ===
+05:25:13       Set 1 of 1
+05:25:13       Target is "XO1-b" (1 of 1)
+05:25:13         Repeat 1 of 1 for this target
+05:25:13           Filter z (1 of 1)
+05:25:13             Image 30 of 60 for this filter
+05:25:13   Imaging to XO1-b_z_20250602_052513
+05:25:13   (taking 60 sec. exposure, z filter, binning = 1)
+05:25:14   (using Monochrome readout mode)
+05:25:14   (starting exposure)
+05:26:14   (exposure complete)
+05:26:17   (exposure complete and image downloaded)
+05:26:18   Image finished
+05:26:21   Plate-solve final image
+05:26:21   48 image stars found
+05:26:22   123 catalog stars found
+05:26:23   Solved! 12 stars matched.
+05:26:23   Average residual is 0.27 arcsec.
+05:26:23   Pointing error is 0.533 arcmin @ angle 40.30
+05:26:23   True focal length is 3989.8 mm.
+05:26:23   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:26:23   True image center (J2000): 16h 02m 13.4s   28° 10' 35.03"
+05:26:23   Imager sky position angle is 0.1 deg.
+05:26:23   Image FWHM is 1.4 arcsec (2.06 pixels)
+05:26:23   (avg FWHM = 1.63 arcsec)
+05:26:23   Within max error tolerance, no recenter needed
+05:26:24   === Place in plan ===
+05:26:24       Set 1 of 1
+05:26:24       Target is "XO1-b" (1 of 1)
+05:26:24         Repeat 1 of 1 for this target
+05:26:24           Filter z (1 of 1)
+05:26:24             Image 31 of 60 for this filter
+05:26:24   Imaging to XO1-b_z_20250602_052624
+05:26:24   (taking 60 sec. exposure, z filter, binning = 1)
+05:26:24   (using Monochrome readout mode)
+05:26:24   (starting exposure)
+05:27:24   (exposure complete)
+05:27:28   (exposure complete and image downloaded)
+05:27:29   Image finished
+05:27:31   Plate-solve final image
+05:27:32   46 image stars found
+05:27:32   123 catalog stars found
+05:27:33   Solved! 14 stars matched.
+05:27:33   Average residual is 0.35 arcsec.
+05:27:33   Pointing error is 0.524 arcmin @ angle 40.85
+05:27:33   True focal length is 3998.1 mm.
+05:27:33   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:27:33   True image center (J2000): 16h 02m 13.4s   28° 10' 34.45"
+05:27:33   Imager sky position angle is 359.9 deg.
+05:27:33   Image FWHM is 1.7 arcsec (2.60 pixels)
+05:27:33   (avg FWHM = 1.66 arcsec)
+05:27:33   Within max error tolerance, no recenter needed
+05:27:34   === Place in plan ===
+05:27:34       Set 1 of 1
+05:27:34       Target is "XO1-b" (1 of 1)
+05:27:34         Repeat 1 of 1 for this target
+05:27:35           Filter z (1 of 1)
+05:27:35             Image 32 of 60 for this filter
+05:27:35   Imaging to XO1-b_z_20250602_052734
+05:27:35   (taking 60 sec. exposure, z filter, binning = 1)
+05:27:35   (using Monochrome readout mode)
+05:27:35   (starting exposure)
+05:28:36   (exposure complete)
+05:28:38   (exposure complete and image downloaded)
+05:28:39   Image finished
+05:28:42   Plate-solve final image
+05:28:42   38 image stars found
+05:28:42   123 catalog stars found
+05:28:43   Solved! 10 stars matched.
+05:28:44   Average residual is 0.33 arcsec.
+05:28:44   Pointing error is 0.518 arcmin @ angle 43.21
+05:28:44   True focal length is 3990.1 mm.
+05:28:44   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:28:44   True image center (J2000): 16h 02m 13.4s   28° 10' 33.32"
+05:28:44   Imager sky position angle is 0.1 deg.
+05:28:44   Image FWHM is 1.9 arcsec (2.77 pixels)
+05:28:44   (avg FWHM = 1.66 arcsec)
+05:28:44   Within max error tolerance, no recenter needed
+05:28:45   === Place in plan ===
+05:28:45       Set 1 of 1
+05:28:45       Target is "XO1-b" (1 of 1)
+05:28:45         Repeat 1 of 1 for this target
+05:28:45           Filter z (1 of 1)
+05:28:45             Image 33 of 60 for this filter
+05:28:45   Imaging to XO1-b_z_20250602_052845
+05:28:45   (taking 60 sec. exposure, z filter, binning = 1)
+05:28:45   (using Monochrome readout mode)
+05:28:45   (starting exposure)
+05:29:46   (exposure complete)
+05:29:48   (exposure complete and image downloaded)
+05:29:49   Image finished
+05:29:52   Plate-solve final image
+05:29:52   40 image stars found
+05:29:53   123 catalog stars found
+05:29:54   Solved! 14 stars matched.
+05:29:54   Average residual is 0.42 arcsec.
+05:29:54   Pointing error is 0.517 arcmin @ angle 43.76
+05:29:54   True focal length is 4000.3 mm.
+05:29:54   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:29:54   True image center (J2000): 16h 02m 13.5s   28° 10' 33.04"
+05:29:54   Imager sky position angle is 359.9 deg.
+05:29:54   Image FWHM is 2.0 arcsec (3.00 pixels)
+05:29:54   (avg FWHM = 1.75 arcsec)
+05:29:54   Within max error tolerance, no recenter needed
+05:29:55   === Place in plan ===
+05:29:55       Set 1 of 1
+05:29:55       Target is "XO1-b" (1 of 1)
+05:29:55         Repeat 1 of 1 for this target
+05:29:55           Filter z (1 of 1)
+05:29:55             Image 34 of 60 for this filter
+05:29:55   Imaging to XO1-b_z_20250602_052955
+05:29:55   (taking 60 sec. exposure, z filter, binning = 1)
+05:29:56   (using Monochrome readout mode)
+05:29:56   (starting exposure)
+05:30:56   (exposure complete)
+05:30:58   (exposure complete and image downloaded)
+05:30:59   Image finished
+05:31:02   Plate-solve final image
+05:31:02   40 image stars found
+05:31:02   123 catalog stars found
+05:31:03   Solved! 11 stars matched.
+05:31:03   Average residual is 0.31 arcsec.
+05:31:03   Pointing error is 0.514 arcmin @ angle 46.52
+05:31:03   True focal length is 3988.8 mm.
+05:31:03   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:31:03   True image center (J2000): 16h 02m 13.5s   28° 10' 31.86"
+05:31:03   Imager sky position angle is 359.9 deg.
+05:31:03   Image FWHM is 1.9 arcsec (2.76 pixels)
+05:31:03   (avg FWHM = 1.87 arcsec)
+05:31:03   Within max error tolerance, no recenter needed
+05:31:05   === Place in plan ===
+05:31:05       Set 1 of 1
+05:31:05       Target is "XO1-b" (1 of 1)
+05:31:05         Repeat 1 of 1 for this target
+05:31:05           Filter z (1 of 1)
+05:31:05             Image 35 of 60 for this filter
+05:31:05   Imaging to XO1-b_z_20250602_053105
+05:31:05   (taking 60 sec. exposure, z filter, binning = 1)
+05:31:05   (using Monochrome readout mode)
+05:31:05   (starting exposure)
+05:32:05   (exposure complete)
+05:32:08   (exposure complete and image downloaded)
+05:32:10   Image finished
+05:32:12   Plate-solve final image
+05:32:12   39 image stars found
+05:32:12   123 catalog stars found
+05:32:13   Solved! 12 stars matched.
+05:32:14   Average residual is 0.33 arcsec.
+05:32:14   Pointing error is 0.507 arcmin @ angle 45.79
+05:32:14   True focal length is 3995.2 mm.
+05:32:14   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:32:14   True image center (J2000): 16h 02m 13.5s   28° 10' 31.87"
+05:32:14   Imager sky position angle is 359.9 deg.
+05:32:14   Image FWHM is 1.8 arcsec (2.71 pixels)
+05:32:14   (avg FWHM = 1.89 arcsec)
+05:32:14   Within max error tolerance, no recenter needed
+05:32:15   === Place in plan ===
+05:32:15       Set 1 of 1
+05:32:15       Target is "XO1-b" (1 of 1)
+05:32:15         Repeat 1 of 1 for this target
+05:32:15           Filter z (1 of 1)
+05:32:15             Image 36 of 60 for this filter
+05:32:15   Imaging to XO1-b_z_20250602_053215
+05:32:15   (taking 60 sec. exposure, z filter, binning = 1)
+05:32:15   (using Monochrome readout mode)
+05:32:16   (starting exposure)
+05:33:16   (exposure complete)
+05:33:18   (exposure complete and image downloaded)
+05:33:19   Image finished
+05:33:22   Plate-solve final image
+05:33:23   37 image stars found
+05:33:23   123 catalog stars found
+05:33:24   Solved! 9 stars matched.
+05:33:24   Average residual is 0.4 arcsec.
+05:33:24   Pointing error is 0.492 arcmin @ angle 47.76
+05:33:24   True focal length is 3995.9 mm.
+05:33:24   True binned plate scales (arcsec/pix): H = 0.67 V = 0.67
+05:33:24   True image center (J2000): 16h 02m 13.5s   28° 10' 30.51"
+05:33:24   Imager sky position angle is 0.2 deg.
+05:33:24   Image FWHM is 1.9 arcsec (2.81 pixels)
+05:33:24   (avg FWHM = 1.89 arcsec)
+05:33:24   Within max error tolerance, no recenter needed
+05:33:26   === Place in plan ===
+05:33:26       Set 1 of 1
+05:33:26       Target is "XO1-b" (1 of 1)
+05:33:26         Repeat 1 of 1 for this target
+05:33:26           Filter z (1 of 1)
+05:33:26             Image 37 of 60 for this filter
+05:33:26   Imaging to XO1-b_z_20250602_053326
+05:33:26   (taking 60 sec. exposure, z filter, binning = 1)
+05:33:26   (using Monochrome readout mode)
+05:33:26   (starting exposure)
+05:34:27   (exposure complete)
+05:34:29   (exposure complete and image downloaded)
+05:34:30   Image finished
+05:34:33   Plate-solve final image
+05:34:33   45 image stars found
+05:34:33   123 catalog stars found
+05:34:34 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+05:34:34   Will skip final image solves until target changes
+05:34:35   === Place in plan ===
+05:34:35       Set 1 of 1
+05:34:35       Target is "XO1-b" (1 of 1)
+05:34:35         Repeat 1 of 1 for this target
+05:34:35           Filter z (1 of 1)
+05:34:35             Image 38 of 60 for this filter
+05:34:35   Imaging to XO1-b_z_20250602_053435
+05:34:35   (taking 60 sec. exposure, z filter, binning = 1)
+05:34:35   (using Monochrome readout mode)
+05:34:35   (starting exposure)
+05:35:35   (exposure complete)
+05:35:38   (exposure complete and image downloaded)
+05:35:39   Image finished
+05:35:42   First image plate-solve failed, skip solves until target changes
+05:35:43   === Place in plan ===
+05:35:43       Set 1 of 1
+05:35:43       Target is "XO1-b" (1 of 1)
+05:35:43         Repeat 1 of 1 for this target
+05:35:43           Filter z (1 of 1)
+05:35:43             Image 39 of 60 for this filter
+05:35:43   Imaging to XO1-b_z_20250602_053543
+05:35:43   (taking 60 sec. exposure, z filter, binning = 1)
+05:35:43   (using Monochrome readout mode)
+05:35:43   (starting exposure)
+05:36:45   (exposure complete)
+05:36:47   (exposure complete and image downloaded)
+05:36:48   Image finished
+05:36:51   First image plate-solve failed, skip solves until target changes
+05:36:52   === Place in plan ===
+05:36:52       Set 1 of 1
+05:36:52       Target is "XO1-b" (1 of 1)
+05:36:52         Repeat 1 of 1 for this target
+05:36:52           Filter z (1 of 1)
+05:36:52             Image 40 of 60 for this filter
+05:36:52   Imaging to XO1-b_z_20250602_053652
+05:36:52   (taking 60 sec. exposure, z filter, binning = 1)
+05:36:52   (using Monochrome readout mode)
+05:36:52   (starting exposure)
+05:37:53   (exposure complete)
+05:37:55   (exposure complete and image downloaded)
+05:37:57   Image finished
+05:37:59   First image plate-solve failed, skip solves until target changes
+05:38:00   === Place in plan ===
+05:38:00       Set 1 of 1
+05:38:00       Target is "XO1-b" (1 of 1)
+05:38:00         Repeat 1 of 1 for this target
+05:38:00           Filter z (1 of 1)
+05:38:00             Image 41 of 60 for this filter
+05:38:00   Imaging to XO1-b_z_20250602_053800
+05:38:00   (taking 60 sec. exposure, z filter, binning = 1)
+05:38:00   (using Monochrome readout mode)
+05:38:01   (starting exposure)
+05:39:01   (exposure complete)
+05:39:03   (exposure complete and image downloaded)
+05:39:04   Image finished
+05:39:07   First image plate-solve failed, skip solves until target changes
+05:39:08   === Place in plan ===
+05:39:08       Set 1 of 1
+05:39:08       Target is "XO1-b" (1 of 1)
+05:39:08         Repeat 1 of 1 for this target
+05:39:08           Filter z (1 of 1)
+05:39:08             Image 42 of 60 for this filter
+05:39:08   Imaging to XO1-b_z_20250602_053908
+05:39:08   (taking 60 sec. exposure, z filter, binning = 1)
+05:39:08   (using Monochrome readout mode)
+05:39:09   (starting exposure)
+05:40:10   (exposure complete)
+05:40:12   (exposure complete and image downloaded)
+05:40:13   Image finished
+05:40:16   First image plate-solve failed, skip solves until target changes
+05:40:17   === Place in plan ===
+05:40:17       Set 1 of 1
+05:40:17       Target is "XO1-b" (1 of 1)
+05:40:17         Repeat 1 of 1 for this target
+05:40:17           Filter z (1 of 1)
+05:40:17             Image 43 of 60 for this filter
+05:40:17   Imaging to XO1-b_z_20250602_054017
+05:40:17   (taking 60 sec. exposure, z filter, binning = 1)
+05:40:17   (using Monochrome readout mode)
+05:40:17   (starting exposure)
+05:41:18   (exposure complete)
+05:41:20   (exposure complete and image downloaded)
+05:41:21   Image finished
+05:41:24   First image plate-solve failed, skip solves until target changes
+05:41:25   === Place in plan ===
+05:41:25       Set 1 of 1
+05:41:25       Target is "XO1-b" (1 of 1)
+05:41:25         Repeat 1 of 1 for this target
+05:41:25           Filter z (1 of 1)
+05:41:25             Image 44 of 60 for this filter
+05:41:25   Imaging to XO1-b_z_20250602_054125
+05:41:25   (taking 60 sec. exposure, z filter, binning = 1)
+05:41:25   (using Monochrome readout mode)
+05:41:26   (starting exposure)
+05:42:26   (exposure complete)
+05:42:28   (exposure complete and image downloaded)
+05:42:30   Image finished
+05:42:32   First image plate-solve failed, skip solves until target changes
+05:42:33   === Place in plan ===
+05:42:33       Set 1 of 1
+05:42:33       Target is "XO1-b" (1 of 1)
+05:42:33         Repeat 1 of 1 for this target
+05:42:33           Filter z (1 of 1)
+05:42:33             Image 45 of 60 for this filter
+05:42:33   Imaging to XO1-b_z_20250602_054233
+05:42:33   (taking 60 sec. exposure, z filter, binning = 1)
+05:42:33   (using Monochrome readout mode)
+05:42:34   (starting exposure)
+05:43:34   (exposure complete)
+05:43:37   (exposure complete and image downloaded)
+05:43:38   Image finished
+05:43:40   First image plate-solve failed, skip solves until target changes
+05:43:42   === Place in plan ===
+05:43:42       Set 1 of 1
+05:43:42       Target is "XO1-b" (1 of 1)
+05:43:42         Repeat 1 of 1 for this target
+05:43:42           Filter z (1 of 1)
+05:43:42             Image 46 of 60 for this filter
+05:43:42   Imaging to XO1-b_z_20250602_054342
+05:43:42   (taking 60 sec. exposure, z filter, binning = 1)
+05:43:42   (using Monochrome readout mode)
+05:43:42   (starting exposure)
+05:44:42   (exposure complete)
+05:44:44   (exposure complete and image downloaded)
+05:44:46   Image finished
+05:44:49   First image plate-solve failed, skip solves until target changes
+05:44:50   === Place in plan ===
+05:44:50       Set 1 of 1
+05:44:50       Target is "XO1-b" (1 of 1)
+05:44:50         Repeat 1 of 1 for this target
+05:44:50           Filter z (1 of 1)
+05:44:50             Image 47 of 60 for this filter
+05:44:50   Imaging to XO1-b_z_20250602_054450
+05:44:50   (taking 60 sec. exposure, z filter, binning = 1)
+05:44:50   (using Monochrome readout mode)
+05:44:50   (starting exposure)
+05:45:51   (exposure complete)
+05:45:53   (exposure complete and image downloaded)
+05:45:54   Image finished
+05:45:57   First image plate-solve failed, skip solves until target changes
+05:45:58   === Place in plan ===
+05:45:58       Set 1 of 1
+05:45:58       Target is "XO1-b" (1 of 1)
+05:45:58         Repeat 1 of 1 for this target
+05:45:58           Filter z (1 of 1)
+05:45:58             Image 48 of 60 for this filter
+05:45:58   Imaging to XO1-b_z_20250602_054558
+05:45:58   (taking 60 sec. exposure, z filter, binning = 1)
+05:45:58   (using Monochrome readout mode)
+05:45:58   (starting exposure)
+05:46:59   (exposure complete)
+05:47:02   (exposure complete and image downloaded)
+05:47:04   Image finished
+05:47:06   First image plate-solve failed, skip solves until target changes
+05:47:07   === Place in plan ===
+05:47:07       Set 1 of 1
+05:47:07       Target is "XO1-b" (1 of 1)
+05:47:07         Repeat 1 of 1 for this target
+05:47:07           Filter z (1 of 1)
+05:47:07             Image 49 of 60 for this filter
+05:47:07   Imaging to XO1-b_z_20250602_054707
+05:47:07   (taking 60 sec. exposure, z filter, binning = 1)
+05:47:07   (using Monochrome readout mode)
+05:47:08   (starting exposure)
+05:48:08   (exposure complete)
+05:48:10   (exposure complete and image downloaded)
+05:48:11   Image finished
+05:48:14   First image plate-solve failed, skip solves until target changes
+05:48:15   === Place in plan ===
+05:48:15       Set 1 of 1
+05:48:15       Target is "XO1-b" (1 of 1)
+05:48:15         Repeat 1 of 1 for this target
+05:48:15           Filter z (1 of 1)
+05:48:15             Image 50 of 60 for this filter
+05:48:15   Imaging to XO1-b_z_20250602_054815
+05:48:15   (taking 60 sec. exposure, z filter, binning = 1)
+05:48:15   (using Monochrome readout mode)
+05:48:16   (starting exposure)
+05:49:16   (exposure complete)
+05:49:18   (exposure complete and image downloaded)
+05:49:19   Image finished
+05:49:22   First image plate-solve failed, skip solves until target changes
+05:49:24   === Place in plan ===
+05:49:24       Set 1 of 1
+05:49:24       Target is "XO1-b" (1 of 1)
+05:49:24         Repeat 1 of 1 for this target
+05:49:24           Filter z (1 of 1)
+05:49:24             Image 51 of 60 for this filter
+05:49:24   Imaging to XO1-b_z_20250602_054924
+05:49:24   (taking 60 sec. exposure, z filter, binning = 1)
+05:49:24   (using Monochrome readout mode)
+05:49:24   (starting exposure)
+05:50:25   (exposure complete)
+05:50:27   (exposure complete and image downloaded)
+05:50:29   Image finished
+05:50:31   First image plate-solve failed, skip solves until target changes
+05:50:32   === Place in plan ===
+05:50:32       Set 1 of 1
+05:50:32       Target is "XO1-b" (1 of 1)
+05:50:32         Repeat 1 of 1 for this target
+05:50:32           Filter z (1 of 1)
+05:50:32             Image 52 of 60 for this filter
+05:50:32   Imaging to XO1-b_z_20250602_055032
+05:50:32   (taking 60 sec. exposure, z filter, binning = 1)
+05:50:32   (using Monochrome readout mode)
+05:50:33   (starting exposure)
+05:51:33   (exposure complete)
+05:51:36   (exposure complete and image downloaded)
+05:51:37   Image finished
+05:51:40   First image plate-solve failed, skip solves until target changes
+05:51:41   Do periodic or plan-start auto-focus...
+05:51:43   Search 15 deg-square area for possible stars
+05:51:44   Looking for stars between mags 6 and 9
+05:51:44   Found mag 6.1 star, USNOA2 1050-07782539; nothing within 79 arcsec.
+05:51:44   Star J2000 coordinates RA=16:07:22 Dec=21° 49' 21"
+05:51:44   Using star at mag 6.1. Slew to star.
+05:51:44   Start slew to AutoFocus...
+05:51:53   (wait for slew to complete)
+05:52:30   (slew complete)
+05:52:30   Doing auto-center...
+05:52:31   Switching from z to g filter for pointing exposure
+05:52:31   Focus change of -70 steps required
+05:52:36   (taking 10 sec. exposure, g filter, binning = 4)
+05:52:37   (using Monochrome readout mode)
+05:52:38   (starting exposure)
+05:52:49   (exposure complete)
+05:52:51   (exposure complete and image downloaded)
+05:52:53   Image finished
+05:52:53   Plate-solve pointing image.
+05:52:53   12 image stars found
+05:52:53   163 catalog stars found
+05:52:53 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+05:52:53   Start slew to offset...
+05:53:41   (wait for slew to complete)
+05:54:19   (slew complete)
+05:54:19   (taking 10 sec. exposure, g filter, binning = 4)
+05:54:19   (using Monochrome readout mode)
+05:54:20   (starting exposure)
+05:54:30   (exposure complete)
+05:54:32   (exposure complete and image downloaded)
+05:54:33   Image finished
+05:54:33   Plate-solve pointing image.
+05:54:33   12 image stars found
+05:54:34   151 catalog stars found
+05:54:34 ** No matching stars found. Check your estimated center-point RA/Dec, and your image scaling and quality.
+05:54:34   Start slew to AutoFocus...
+05:55:26   (wait for slew to complete)
+05:56:04   (slew complete)
+05:56:04   (AF will use Monochrome readout mode)
+05:56:04   Starting Autofocus...
+05:56:04    23:56:04  
+05:56:05    23:56:04  ** Beginning Find Star **
+05:56:05    23:56:05  ...Filter 1: g (slot 1)
+05:56:06    23:56:05  ...Flux target: 300K
+05:56:06    23:56:06  ...CCD central region: 75%
+05:56:06    23:56:06  ...Star subframe width: 100
+05:56:07    23:56:07  ...Base exposure: 0.50 sec
+05:56:07    23:56:07  ...Min/Max exposure: 0.10 / 5.00 sec
+05:56:07    23:56:07  ...Target star binning: 2
+05:56:08    23:56:08  ...CCD central region: 75%
+05:56:08    23:56:08  Taking initial image
+05:56:10    23:56:10  ...Looking for star
+05:56:10    23:56:10  ...Superbin: 5
+05:56:11    23:56:10  ...Time: 0.0 sec
+05:56:11    23:56:11  Target star found
+05:56:12    23:56:11  ...Exp: 0.50  Bin: 2 HFD:  3.62 Flux: 2632
+05:56:12    23:56:12  ...Star X: 218 Y: 199 (bin: 2)
+05:56:12    23:56:12  ...Full frame Star X: 564 Y: 526 (bin: 2)
+05:56:13    23:56:12  Setting subframe parameters
+05:56:13    23:56:13  ...Focus binning: 1
+05:56:13    23:56:13  ...Frame width: 100
+05:56:14    23:56:13  ...Exposure: 0.50
+05:56:14    23:56:14  Taking subframe image
+05:56:16    23:56:16  ** Star is too dim **
+05:56:16    23:56:16  Required exposure 5.00 is > 5.00 maximum exposure setting
+05:56:16    23:56:16  ...using maximum exposure: 5.00
+05:56:17    23:56:16  ...Exp: 5.00  Bin: 1 HFD:  3.85 Flux: 3384
+05:56:17    23:56:17  ...Star X: 50 Y: 49 (bin: 1)
+05:56:17    23:56:17  ...Full frame Star X: 564 Y: 525 (bin: 1)
+05:56:18    23:56:17  Target star found
+05:56:18    23:56:18  ** End Find Star **
+05:56:18    23:56:18  
+05:56:18    23:56:18  ** Beginning Focus Run **
+05:56:19    23:56:19  Running under automation: True
+05:56:19    23:56:19  FocusMax Version: 4.1.0.98
+05:56:19    23:56:19  Date: 6/1/2025 11:56:19 PM
+05:56:20    23:56:20  System: MySystem1
+05:56:20    23:56:20  Telescope RA: 01:27:14.8 Dec: +28:04:12.7
+05:56:20    23:56:20  Camera: Apogee USB/Net
+05:56:20    23:56:20  Focuser: TCS772.Focuser
+05:56:20    23:56:20  Filter: g (slot 1)
+05:56:20    23:56:20  ...Flux target: 300K
+05:56:20    23:56:20  ...Focus method: Standard
+05:56:21    23:56:20  ...LS: -0.134033 RS: 0.134375 PID: 15.13 NFHFD: 12
+05:56:21    23:56:21  ...Current position: 5559
+05:56:21    23:56:21  ...Current temperature: 0.0
+05:56:21    23:56:21  ...Focus calculation method: MinMaxClip
+05:56:21    23:56:21  ...Move direction: Out
+05:56:21    23:56:21  ...Focus bin: 1
+05:56:21    23:56:21  ...Frame width: 100
+05:56:22    23:56:22  ...Focus exposure: 5.00 sec
+05:56:22    23:56:22  Moving to: 5476
+05:56:32    23:56:32  ** Star is too dim **
+05:56:32    23:56:32  Required exposure 5.00 is > 5.00 maximum exposure setting
+05:56:33    23:56:33  ...using maximum exposure: 5.00
+05:56:33    23:56:33  ...Exp: 5.00  Bin: 1 HFD: 11.57 Flux: 26597
+05:56:33    23:56:33  ...Star X: 51 Y: 50 (bin: 1)
+05:56:33    23:56:33  ...Full frame Star X: 565 Y: 525 (bin: 1)
+05:56:33    23:56:33  Pos.,    HFD, X, Y, Flux, Pixel, Count
+05:56:33    23:56:33  5475, 11.57, 565, 525, 26597, 2297,  1
+05:56:33    23:56:33  On correct side of focus
+05:56:33    23:56:33  Move to start HFD: 15
+05:56:45    23:56:45  Pos.,    HFD, X, Y, Flux, Pixel, Count
+05:56:45    23:56:45  5451, 14.77, 566, 525, 25223, 2293,  1
+05:56:46    23:56:45  Sampling to determine NearFocus move
+05:56:52    23:56:51  Pos.,    HFD, X, Y, Flux, Pixel, Count
+05:56:52    23:56:52  5451, 14.27, 566, 525, 23115, 2293,  1
+05:56:59    23:56:58  5451, 14.35, 567, 525, 23046, 2293,  1
+05:57:05    23:57:05  5451, 14.07, 566, 524, 24767, 2293,  1
+05:57:05    23:57:05  Moving to: 5468
+05:57:07    23:57:07  Near Focus HFD: 12
+05:57:07    23:57:07  ** Starting Near Focus **
+05:57:13    23:57:13  Pos.,    HFD, MeanFocus, X, Y, Flux, Pixel, Count
+05:57:14    23:57:13  5466, 12.74, 5553, 566, 524, 24459, 2333,  1
+05:57:20    23:57:20  5466, 13.20, 5555, 566, 525, 26005, 2351,  1
+05:57:26    23:57:26  5466, 13.02, 5555, 567, 525, 29943, 2337,  1
+05:57:33    23:57:32  5466, 13.41, 5556, 567, 525, 33759, 2332,  1
+05:57:39    23:57:39  5466, 12.71, 5556, 567, 524, 33655, 2290,  1
+05:57:45    23:57:45  5466, 12.63, 5555, 567, 524, 31505, 2328,  1
+05:57:51    23:57:51  5466, 12.95, 5555, 567, 525, 32621, 2315,  1
+05:57:57    23:57:57  5466, 12.76, 5555, 567, 525, 30479, 2323,  1
+05:58:03    23:58:03  5466, 12.48, 5555, 568, 525, 29852, 2334,  1
+05:58:10    23:58:09  5466, 12.51, 5554, 567, 525, 33246, 2315,  1
+05:58:10    23:58:10  Focus position: 5554
+05:58:10    23:58:10  Moving to focus position: 5554
+05:58:15    23:58:15  Taking images at focus position
+05:58:15    23:58:15  Adjusting exposure based on flux target
+05:58:15    23:58:15  ** Star is too dim **
+05:58:16    23:58:15  Required exposure 5.00 is > 5.00 maximum exposure setting
+05:58:16    23:58:16  ...using maximum exposure: 5.00
+05:58:28    23:58:28  Pos.,    HFD, X, Y, Flux, Pixel, Count,  FWHM (arc-sec)
+05:58:29    23:58:28  5551, 03.93, 566, 523, 33516, 3458,  1, 01.44
+05:58:35    23:58:35  5551, 04.22, 566, 523, 32570, 3119,  1, 01.61
+05:58:41    23:58:41  5551, 04.15, 566, 523, 29725, 3021,  1, 01.55
+05:58:47    23:58:47  5551, 04.20, 566, 523, 30469, 3158,  1, 01.51
+05:58:53    23:58:53  5551, 03.83, 566, 523, 29718, 3412,  1, 01.39
+05:58:59    23:58:59  5551, 04.25, 566, 523, 29070, 2969,  1, 01.63
+05:59:05    23:59:05  5551, 04.53, 566, 523, 28034, 2781,  1, 01.87
+05:59:06    23:59:05  Focus position = 5551  Avg HFD =  4.16  Avg FWHM =  1.57
+05:59:06    23:59:06  Temperature: 0.0  Filter: g (slot 1)
+05:59:06    23:59:06  ** AutoFocus Completed **
+05:59:07    23:59:06  Focus time: 166 sec
+05:59:07   FocusMax auto-focus successful!
+05:59:07     HFD = 4.16
+05:59:07     Focus position = 5551
+05:59:07   Slewing back to original position...
+05:59:07   Start slew to AF return...
+05:59:17   (wait for slew to complete)
+05:59:48   (slew complete)
+05:59:48   Autofocus finished.
+05:59:48   Start slew to XO1-b...
+05:59:56   (wait for slew to complete)
+06:00:00   (slew complete)
+06:00:00   (doing post-focus pointing update...)
+06:00:00   Doing auto-center...
+06:00:00   (taking 10 sec. exposure, g filter, binning = 4)
+06:00:00   (using Monochrome readout mode)
+06:00:01   (starting exposure)
+06:00:11   (exposure complete)
+06:00:13   (exposure complete and image downloaded)
+06:00:14   Image finished
+06:00:14   Plate-solve pointing image.
+06:00:14   9 image stars found
+06:00:14   123 catalog stars found
+06:00:16   Solved! 9 stars matched.
+06:00:16   Average residual is 0.77 arcsec.
+06:00:16   Pointing error is 0.663 arcmin @ angle 74.53
+06:00:16   True focal length is 3998.3 mm.
+06:00:16   True binned plate scales (arcsec/pix): H = 2.68 V = 2.68
+06:00:16   True image center (J2000): 16h 02m 14.7s   28° 10' 21.26"
+06:00:16   Imager sky position angle is 0.0 deg.
+06:00:16   Within max error tolerance, no re-slew needed.
+06:00:16   Target is now centered.
+06:00:16   === Place in plan ===
+06:00:16       Set 1 of 1
+06:00:16       Target is "XO1-b" (1 of 1)
+06:00:16         Repeat 1 of 1 for this target
+06:00:16           Filter z (1 of 1)
+06:00:16             Image 53 of 60 for this filter
+06:00:16   Imaging to XO1-b_z_20250602_060016
+06:00:16   Switching from g to z filter for imaging
+06:00:16   Focus change of 70 steps required
+06:00:20   (taking 60 sec. exposure, z filter, binning = 1)
+06:00:21   (using Monochrome readout mode)
+06:00:22   (starting exposure)
+06:01:23   (exposure complete)
+06:01:25   (exposure complete and image downloaded)
+06:01:26   Image finished
+06:01:29   First image plate-solve failed, skip solves until target changes
+06:01:30   === Place in plan ===
+06:01:30       Set 1 of 1
+06:01:30       Target is "XO1-b" (1 of 1)
+06:01:30         Repeat 1 of 1 for this target
+06:01:30           Filter z (1 of 1)
+06:01:30             Image 54 of 60 for this filter
+06:01:30   Imaging to XO1-b_z_20250602_060130
+06:01:30   (taking 60 sec. exposure, z filter, binning = 1)
+06:01:30   (using Monochrome readout mode)
+06:01:30   (starting exposure)
+06:02:31   (exposure complete)
+06:02:34   (exposure complete and image downloaded)
+06:02:35   Image finished
+06:02:38   First image plate-solve failed, skip solves until target changes
+06:02:39   === Place in plan ===
+06:02:39       Set 1 of 1
+06:02:39       Target is "XO1-b" (1 of 1)
+06:02:39         Repeat 1 of 1 for this target
+06:02:39           Filter z (1 of 1)
+06:02:39             Image 55 of 60 for this filter
+06:02:39   Imaging to XO1-b_z_20250602_060239
+06:02:39   (taking 60 sec. exposure, z filter, binning = 1)
+06:02:39   (using Monochrome readout mode)
+06:02:39   (starting exposure)
+06:03:40   (exposure complete)
+06:03:42   (exposure complete and image downloaded)
+06:03:43   Image finished
+06:03:46   First image plate-solve failed, skip solves until target changes
+06:03:47   === Place in plan ===
+06:03:47       Set 1 of 1
+06:03:47       Target is "XO1-b" (1 of 1)
+06:03:47         Repeat 1 of 1 for this target
+06:03:47           Filter z (1 of 1)
+06:03:47             Image 56 of 60 for this filter
+06:03:47   Imaging to XO1-b_z_20250602_060347
+06:03:47   (taking 60 sec. exposure, z filter, binning = 1)
+06:03:47   (using Monochrome readout mode)
+06:03:48   (starting exposure)
+06:04:48   (exposure complete)
+06:04:51   (exposure complete and image downloaded)
+06:04:52   Image finished
+06:04:54   First image plate-solve failed, skip solves until target changes
+06:04:56   === Place in plan ===
+06:04:56       Set 1 of 1
+06:04:56       Target is "XO1-b" (1 of 1)
+06:04:56         Repeat 1 of 1 for this target
+06:04:56           Filter z (1 of 1)
+06:04:56             Image 57 of 60 for this filter
+06:04:56   Imaging to XO1-b_z_20250602_060456
+06:04:56   (taking 60 sec. exposure, z filter, binning = 1)
+06:04:56   (using Monochrome readout mode)
+06:04:57   (starting exposure)
+06:05:57   (exposure complete)
+06:06:00   (exposure complete and image downloaded)
+06:06:01   Image finished
+06:06:04   First image plate-solve failed, skip solves until target changes
+06:06:05   === Place in plan ===
+06:06:05       Set 1 of 1
+06:06:05       Target is "XO1-b" (1 of 1)
+06:06:05         Repeat 1 of 1 for this target
+06:06:05           Filter z (1 of 1)
+06:06:05             Image 58 of 60 for this filter
+06:06:05   Imaging to XO1-b_z_20250602_060605
+06:06:05   (taking 60 sec. exposure, z filter, binning = 1)
+06:06:05   (using Monochrome readout mode)
+06:06:06   (starting exposure)
+06:07:06   (exposure complete)
+06:07:09   (exposure complete and image downloaded)
+06:07:10   Image finished
+06:07:12   First image plate-solve failed, skip solves until target changes
+06:07:14   === Place in plan ===
+06:07:14       Set 1 of 1
+06:07:14       Target is "XO1-b" (1 of 1)
+06:07:14         Repeat 1 of 1 for this target
+06:07:14           Filter z (1 of 1)
+06:07:14             Image 59 of 60 for this filter
+06:07:14   Imaging to XO1-b_z_20250602_060714
+06:07:14   (taking 60 sec. exposure, z filter, binning = 1)
+06:07:14   (using Monochrome readout mode)
+06:07:15   (starting exposure)
+06:08:15   (exposure complete)
+06:08:17   (exposure complete and image downloaded)
+06:08:18   Image finished
+06:08:21   First image plate-solve failed, skip solves until target changes
+06:08:22   === Place in plan ===
+06:08:22       Set 1 of 1
+06:08:22       Target is "XO1-b" (1 of 1)
+06:08:22         Repeat 1 of 1 for this target
+06:08:22           Filter z (1 of 1)
+06:08:22             Image 60 of 60 for this filter
+06:08:22   Imaging to XO1-b_z_20250602_060822
+06:08:22   (taking 60 sec. exposure, z filter, binning = 1)
+06:08:22   (using Monochrome readout mode)
+06:08:23   (starting exposure)
+06:09:23   (exposure complete)
+06:09:26   (exposure complete and image downloaded)
+06:09:27   Image finished
+06:09:29   First image plate-solve failed, skip solves until target changes
+06:09:30   (turning tracking off for safety)
+06:09:32 End of run.
+ACP console log closed 02-Jun-2025 06:09:32 UTC
