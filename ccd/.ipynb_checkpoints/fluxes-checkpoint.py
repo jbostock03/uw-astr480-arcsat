@@ -14,18 +14,10 @@ from astropy.stats import sigma_clipped_stats
 from photutils.centroids import centroid_1dg
 
 def total_flux(data_dir):
-    """This function must run the entire CCD reduction process. You can implement it
-    in any way that you want but it must perform a valid reduction for the two
-    science frames in the dataset using the functions that you have implemented in
-    this module. Then perform aperture photometry on at least one of the science
-    frames, using apertures and sky annuli that make sense for the data. The function
-    must accept the data_dir as an argument, which is the path to the directory with
-    the raw data.
+    """
+    Calculates the total flux in each reduced science frame.
 
-    No specific output is required but make sure the function prints/saves all the
-    relevant information to the screen or to a file, and that any plots are saved to
-    PNG or PDF files.
-
+    Returns these as an array.
     """
 
     #import functions
