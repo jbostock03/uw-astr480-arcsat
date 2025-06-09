@@ -12,10 +12,10 @@ Project files for ASTR 480 ARCSAT observations.
 **fluxes.total_flux**: this calculates fluxes for each reduced science frame for the data from 20250603 (HAT-P-36 b).
 **fluxes_0601.total_flux**: this calculates fluxes for each reduced science frame for the data from 20250601 (XO-1 b).
 
-### `data`
+### `/data/...`
 The raw data used for the data analysis. Only the data from 20250601 is here due to memory limitations.
 
-### `reduced_data`
+### `/reduced_data/...`
 The reduced data files. Only the data from 20250601 is here due to memory limitations.
 
 ### `visualisation.ipynb`
@@ -24,7 +24,7 @@ Running the `run_reduction()` function on the data.
 ### `lightcurve.ipynb`
 Running the `total_flux()` function on the data, and plotting the light curve.
 
-### `... .png`
+### `***.png`
 Saved images of light curves for the paper.
 
 
