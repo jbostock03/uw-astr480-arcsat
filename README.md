@@ -15,6 +15,8 @@ Project files for ASTR 480 ARCSAT observations.
 
 **`fluxes_0601.total_flux`**: this calculates fluxes for each reduced science frame for the data from 20250601 (XO-1 b).
 
+**`lightcurve.plot_lightcurve**: this plots a lightcurve for given fluxes using the `batman` package.
+
 ## `/data/...`
 The raw data used for the data analysis. Only the data from 20250601 is here due to memory limitations.
 
@@ -30,4 +32,7 @@ Running the `total_flux()` function on the data, and plotting the light curve.
 ### `***.png`
 Saved images of light curves for the paper.
 
+# Acknowledgements
+Kreidberg, Laura. "batman: basic transit model calculation in Python." Publications of the Astronomical Society of the Pacific 127.957 (2015): 1161.
 
+Based on observations obtained with Apache Point Observatory's 0.5-m Astrophysical Research Consortium Small Aperture Telescope.
