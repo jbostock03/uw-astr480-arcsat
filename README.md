@@ -15,7 +15,7 @@ Project files for ASTR 480 ARCSAT observations.
 
 **`fluxes_0601.total_flux`**: this calculates fluxes for each reduced science frame for the data from 20250601 (XO-1 b).
 
-**`lightcurve.plot_lightcurve**: this plots a lightcurve for given fluxes using the `batman` package.
+**`lightcurve.plot_lightcurve`**: this plots a lightcurve for given fluxes using the `batman` package.
 
 ## `/data/...`
 The raw data used for the data analysis. Only the data from 20250601 is here due to memory limitations.
