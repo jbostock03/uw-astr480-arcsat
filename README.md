@@ -3,6 +3,12 @@ Project files for ASTR 480 ARCSAT observations.
 
 # Files
 
+### `arcsat_paper.pdf`
+.pdf copy of the report.
+
+### `***.png`
+Saved images of light curves for the paper.
+
 ## `/ccd/...`
 .py files for code to run reductions using the observed data. This is adapted from the _CCD Reduction_ assignment:
 
@@ -28,9 +34,6 @@ Running the `run_reduction()` function on the data.
 
 ## `lightcurve.ipynb`
 Running the `total_flux()` function on the data, and plotting the light curve.
-
-### `***.png`
-Saved images of light curves for the paper.
 
 # Acknowledgements
 Kreidberg, Laura. "batman: basic transit model calculation in Python." Publications of the Astronomical Society of the Pacific 127.957 (2015): 1161.
