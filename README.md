@@ -3,7 +3,7 @@ Project files for ASTR 480 ARCSAT observations.
 
 # Files
 
-### `arcsat_paper.pdf`
+### `ARCSAT_paper.pdf`
 .pdf copy of the report.
 
 ### `***.png`
